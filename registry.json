@@ -3,7 +3,7 @@
   "packages": [
     {
       "id": "session-init",
-      "version": "1.1.1-public.1",
+      "version": "1.2.0-public.1",
       "path": "packages/session-init",
       "entrypoint": "SKILL.md",
       "runtimes": [
@@ -19,16 +19,18 @@
       },
       "public_files": {
         "PROVENANCE.md": "0accbc2f531901e5d5a1fed87dff9607664d550476f36dfd9f55ac0be4e7b8ca",
-        "SKILL.md": "ed0096ec193697b4595c45204b6dadc68df902bc415b02ffc8aaeaf8c4680827",
-        "agents/openai.yaml": "32b775b7925888eca637433f9146cc4d01dc3285123d294826239bfed0b4d073",
+        "SKILL.md": "274ce401668da041967b14f97e16adca735e8b2e90b490cfaa4dcbd7f151d40b",
+        "agents/openai.yaml": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
         "assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
-        "assets/session-primer.md": "7bfca8c76c756bc26a2150e088afd0849919eb8a89084c0621562b871f59eb77",
-        "assets/session-receipt.md": "966c4d6d55af0b741d228fe6a8f088b5c6b6c16732943a81e7bd654356550e7b",
-        "references/clickup-routing.md": "2d5eb82330f99e1c36c817ba98dafb43393bbcbec20c8428a398930e467e2ce6",
-        "references/session-continuity.md": "34ee6b30e715c6053b26fd5804192aaa0ad275dec9954155335a1582fa66b8b7",
-        "references/skill-routing-ledger.md": "b513a682a4c216b22e76684e67ccdb356ce28a65d19c75ab7d5c195663dad95b",
-        "references/verification-and-authority.md": "4862cb189bc2c0ab56907f2fc16610c833968005fb2fc29a8065d3d621384d40",
-        "references/voice-waiting.md": "f7f7a6fac8fa8c325e5f224c74a4d997e8cceda6c1812d9da21a190eece50866"
+        "assets/priority-briefing.md": "70ddeb1f614cdfbd1a85e2568b326346ff29c700e86676bf8455bad1a7f0406d",
+        "assets/session-primer.md": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
+        "assets/session-receipt.md": "cdeab451233309b2085a50d294309dc70e8c0dba5cb7f52701fcda01ab622e54",
+        "references/clickup-routing.md": "3952691d9a8fba0f167d927769bd84820ffefa34fcfa852e893d439a6bb0e0e5",
+        "references/priority-briefing.md": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
+        "references/session-continuity.md": "6dd9f3d5005e7bf1aa82e7c74ef3fa4893e88bf87ba07634b53d691f4be5b48f",
+        "references/skill-routing-ledger.md": "cfeda4aaf59da9799ee3174157a609fa5a3e89ee20a2a5a266f420c66ca448be",
+        "references/verification-and-authority.md": "69538b3b838d0c5224817b8efb75458e83362ae1a11911f0a05617560e7a8c31",
+        "references/voice-waiting.md": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217"
       },
       "publication_approved": false
     },

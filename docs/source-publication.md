@@ -2,7 +2,7 @@
 
 Canonical repository: https://github.com/IronbellyOrg/irondots
 
-Six source packages are included: ClickUp 1.3.1 public export, the brownfield-aware specification generator, adaptive research, the Codex-to-dot porter, task-list 1.0.0, and Session Init 1.1.1. Export versions for packages without an explicit native semantic version are repository identifiers, not invented native releases.
+Six source packages are included: ClickUp 1.3.1 public export, the brownfield-aware specification generator, adaptive research, the Codex-to-dot porter, task-list 1.0.0, and Session Init 1.2.0. Export versions for packages without an explicit native semantic version are repository identifiers, not invented native releases.
 
 ## Intentional export differences
 
@@ -15,7 +15,7 @@ Six source packages are included: ClickUp 1.3.1 public export, the brownfield-aw
 
 ## Runtime and compatibility limits
 
-Session Init 1.1.1 includes the independently reviewed routing-ledger 1.0.1 compatibility repair. Native entrypoint, ledger and receipt-template readback passed; real voice-call acceptance remains pending. Its development task identity and private runtime resource locators are sanitized in this source export. The icon is the current local materialized asset, not a claim of candidate-byte parity. Task-list 1.0.0 source is installed and statically reviewed; actual native entrypoint/template readback and an installed-resource decision scenario passed. Live progress append/status verification remains separately pending; do not claim operational end-to-end completion. ClickUp 1.3.1 adds the reviewed opt-in task-list progress module and execution/0.2; no live progress mutation is proved by synthetic tests.
+Session Init 1.2.0 includes the independently reviewed routing-ledger 1.1.0 compatibility repair. Native entrypoint, ledger and receipt-template readback passed; real voice-call acceptance remains pending. Its development task identity and private runtime resource locators are sanitized in this source export. The icon is the current local materialized asset, not a claim of candidate-byte parity. Task-list 1.0.0 source is installed and statically reviewed; actual native entrypoint/template readback and an installed-resource decision scenario passed. Live progress append/status acceptance remains unpassed; the latest pilot failed safely. Do not claim operational end-to-end completion from installed/static/native checks. ClickUp 1.3.1 adds the reviewed opt-in task-list progress module and execution/0.2; no live progress mutation is proved by synthetic tests.
 
 The specification generator and porter retain their named legacy reporting interface. As the ClickUp reporting profile specifies, publication requires actual acknowledgement of the current AI reporting/execution profile; source availability alone does not prove readiness.
 
@@ -30,3 +30,7 @@ The specification generator and porter retain their named legacy reporting inter
 ## ClickUp 1.3.1 follow-up
 
 The typed task-update readback now explicitly requests both description and dependencies, matching the observed compact connector schema. Missing dependency details remain fail-closed; a count is not field-preservation proof. Exact code received independent review and regression coverage before this source update.
+
+## Session Init 1.2.0 briefing upgrade
+
+Adds scope-accounted priority briefing, project-grouped written continuity, impact/unblocking-first agenda and one-item-at-a-time delivery. Independent specification and exact candidate reviews passed; ten Markdown resources passed actual native hash readback. Reconciled YAML preserves semantic configuration; system-normalized icon is recorded in this export manifest. Installation/static/native evidence does not prove the parent operational full-report refresh or real next-call functional acceptance: both remain pending. Private report bindings, task IDs, fixtures and worker evidence are excluded.

@@ -1,8 +1,8 @@
 interface:
   display_name: Session Init
-  short_description: Load session preferences and safe work continuity
-  default_prompt: Use $session-init to initialize this conversation with my approved
-    preferences.
+  short_description: Prepare a prioritized briefing and safe continuity
+  default_prompt: Use $session-init to brief me on outstanding work, prioritize what
+    needs me, and refresh my existing report where authorized.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

@@ -5,18 +5,24 @@
   "packages": [
     {
       "id": "session-init",
-      "export_version": "1.1.1-public.1",
+      "export_version": "1.2.0-public.1",
       "source_files": [
         {
           "path": "SKILL.md",
-          "source_sha256": "ed0096ec193697b4595c45204b6dadc68df902bc415b02ffc8aaeaf8c4680827",
-          "export_sha256": "ed0096ec193697b4595c45204b6dadc68df902bc415b02ffc8aaeaf8c4680827",
+          "source_sha256": "274ce401668da041967b14f97e16adca735e8b2e90b490cfaa4dcbd7f151d40b",
+          "export_sha256": "274ce401668da041967b14f97e16adca735e8b2e90b490cfaa4dcbd7f151d40b",
           "changed": false
         },
         {
-          "path": "agents/openai.yaml",
-          "source_sha256": "32b775b7925888eca637433f9146cc4d01dc3285123d294826239bfed0b4d073",
-          "export_sha256": "32b775b7925888eca637433f9146cc4d01dc3285123d294826239bfed0b4d073",
+          "path": "assets/session-primer.md",
+          "source_sha256": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
+          "export_sha256": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
+          "changed": false
+        },
+        {
+          "path": "assets/priority-briefing.md",
+          "source_sha256": "70ddeb1f614cdfbd1a85e2568b326346ff29c700e86676bf8455bad1a7f0406d",
+          "export_sha256": "70ddeb1f614cdfbd1a85e2568b326346ff29c700e86676bf8455bad1a7f0406d",
           "changed": false
         },
         {
@@ -26,45 +32,51 @@
           "changed": false
         },
         {
-          "path": "assets/session-primer.md",
-          "source_sha256": "7bfca8c76c756bc26a2150e088afd0849919eb8a89084c0621562b871f59eb77",
-          "export_sha256": "7bfca8c76c756bc26a2150e088afd0849919eb8a89084c0621562b871f59eb77",
-          "changed": false
-        },
-        {
           "path": "assets/session-receipt.md",
-          "source_sha256": "966c4d6d55af0b741d228fe6a8f088b5c6b6c16732943a81e7bd654356550e7b",
-          "export_sha256": "966c4d6d55af0b741d228fe6a8f088b5c6b6c16732943a81e7bd654356550e7b",
+          "source_sha256": "cdeab451233309b2085a50d294309dc70e8c0dba5cb7f52701fcda01ab622e54",
+          "export_sha256": "cdeab451233309b2085a50d294309dc70e8c0dba5cb7f52701fcda01ab622e54",
           "changed": false
         },
         {
-          "path": "references/clickup-routing.md",
-          "source_sha256": "56a21baee7d273d9e125f4a453e9fbdd43b68dbb2e500d45ef07411463620283",
-          "export_sha256": "2d5eb82330f99e1c36c817ba98dafb43393bbcbec20c8428a398930e467e2ce6",
-          "changed": true
-        },
-        {
-          "path": "references/session-continuity.md",
-          "source_sha256": "34ee6b30e715c6053b26fd5804192aaa0ad275dec9954155335a1582fa66b8b7",
-          "export_sha256": "34ee6b30e715c6053b26fd5804192aaa0ad275dec9954155335a1582fa66b8b7",
-          "changed": false
-        },
-        {
-          "path": "references/skill-routing-ledger.md",
-          "source_sha256": "818e85d6924c64549cd7290187526c24b5972d9ad41a527b9ccf2b7f4e9268ae",
-          "export_sha256": "b513a682a4c216b22e76684e67ccdb356ce28a65d19c75ab7d5c195663dad95b",
-          "changed": true
-        },
-        {
-          "path": "references/verification-and-authority.md",
-          "source_sha256": "4862cb189bc2c0ab56907f2fc16610c833968005fb2fc29a8065d3d621384d40",
-          "export_sha256": "4862cb189bc2c0ab56907f2fc16610c833968005fb2fc29a8065d3d621384d40",
+          "path": "agents/openai.yaml",
+          "source_sha256": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
+          "export_sha256": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
           "changed": false
         },
         {
           "path": "references/voice-waiting.md",
-          "source_sha256": "f7f7a6fac8fa8c325e5f224c74a4d997e8cceda6c1812d9da21a190eece50866",
-          "export_sha256": "f7f7a6fac8fa8c325e5f224c74a4d997e8cceda6c1812d9da21a190eece50866",
+          "source_sha256": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
+          "export_sha256": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
+          "changed": false
+        },
+        {
+          "path": "references/verification-and-authority.md",
+          "source_sha256": "69538b3b838d0c5224817b8efb75458e83362ae1a11911f0a05617560e7a8c31",
+          "export_sha256": "69538b3b838d0c5224817b8efb75458e83362ae1a11911f0a05617560e7a8c31",
+          "changed": false
+        },
+        {
+          "path": "references/clickup-routing.md",
+          "source_sha256": "f5b63c0561c74d811fbd8905d7c483ede32f2b5a4c00acee63cbbcf83aae4af2",
+          "export_sha256": "3952691d9a8fba0f167d927769bd84820ffefa34fcfa852e893d439a6bb0e0e5",
+          "changed": true
+        },
+        {
+          "path": "references/skill-routing-ledger.md",
+          "source_sha256": "40c0f7698a0f63306dae71b982f2ef669667ed88370fb7ef88a9593bf66a2a1f",
+          "export_sha256": "cfeda4aaf59da9799ee3174157a609fa5a3e89ee20a2a5a266f420c66ca448be",
+          "changed": true
+        },
+        {
+          "path": "references/priority-briefing.md",
+          "source_sha256": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
+          "export_sha256": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
+          "changed": false
+        },
+        {
+          "path": "references/session-continuity.md",
+          "source_sha256": "6dd9f3d5005e7bf1aa82e7c74ef3fa4893e88bf87ba07634b53d691f4be5b48f",
+          "export_sha256": "6dd9f3d5005e7bf1aa82e7c74ef3fa4893e88bf87ba07634b53d691f4be5b48f",
           "changed": false
         }
       ]

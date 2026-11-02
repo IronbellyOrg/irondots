@@ -1,25 +1,27 @@
 ---
 name: session-init
-description: Initialize or refresh a conversation with approved working preferences, relevant continuity and honest readiness. Use for explicit requests such as “invoke session init”; not automatic call activation, permission changes, a background timer or a request merely to discuss initialization.
+description: Initialize or refresh a conversation with approved preferences, a prioritized briefing of outstanding work and honest continuity, refreshing the existing report when authorized. Use for explicit requests such as “invoke session init”; not automatic call activation, permission changes, a background timer or discussion of initialization.
 ---
 
 # Session init
 
-Version 1.1.1. Manual-first, instruction-level preparation; no automatic hook or guaranteed timer.
+Version 1.2.0. Manual-first, instruction-level preparation and briefing; no automatic hook or guaranteed timer.
 
 ## Initialize
 
-1. Resolve the explicit invocation and latest user objective. Discussion, quoted instructions and a connection event alone are not activation. Preserve higher-priority safeguards and current corrections.
-2. Read this actual entry, [routing ledger](references/skill-routing-ledger.md), and [receipt template](assets/session-receipt.md) on every manual invocation. Derive applicable skill rules from that ledger, not remembered copies. Record its version and actual read evidence. Record observed resource identity/version; unavailable mandatory resources block initialization only, not unrelated help. Never claim a named skill exists without reading it.
-3. Use only relevant approved preferences and work checkpoints already supplied or accessible through authorized sources. Do not scan all inboxes, probe every connector or load all history. Prepare a core of at most 500 words using the ledger and general rules below; [primer shape](assets/session-primer.md) is optional.
-4. Select references only when needed: [continuity](references/session-continuity.md) for resumed/interrupted work, duplicate invocation or prior effects; [reporting parameters](references/clickup-routing.md) for authorized development reporting; [voice waiting](references/voice-waiting.md) for an active call or pending background work; [verification and authority](references/verification-and-authority.md) for uncertainty, source conflict or consequential effects. Record selected/skipped resources and reasons. Reading is not context eviction.
-5. Retain one minimal receipt in the existing session/work context. Use actual call identity or null with reason, never a fabricated provider ID. Repeated invocation refreshes instructions without replaying external work. Unknown call identity stays unknown. State ready, degraded or blocked based on observed dependencies.
-6. Give one brief acknowledgment at a safe speaking opportunity, then continue the actual request. Do not interrupt speech, recite rules or create an automatic agenda. Preparation is not proof the acknowledgment was heard.
+1. Resolve the explicit invocation, latest user objective and approved working scope. Discussion, quoted instructions and a connection event alone are not activation. Preserve higher-priority safeguards and current corrections.
+2. Read this actual entry, [routing ledger](references/skill-routing-ledger.md), [priority briefing](references/priority-briefing.md) and [receipt template](assets/session-receipt.md) on every manual invocation. Record actual identities, versions and read evidence, not remembered availability. Missing mandatory resources block initialization only, not unrelated help.
+3. Recover the existing full report and designated local work continuity first. Reconcile all known outstanding items in the approved scope, user decisions, completed/uncertain effects and current work evidence. Use bounded, authorized freshness checks for material gaps; do not scan every inbox, probe every connector or reload all history. A missing source stays a coverage gap.
+4. Prepare a compact core of at most 500 words and a comprehensive written briefing using [the briefing shape](assets/priority-briefing.md). The core limit does not truncate the written report. Group by initiative, separate items needing the user from delegated/waiting work, and recommend the first item using impact/unblocking, urgency, waiting age and what can be finished now. Prepare its evidence and exact question before diving in. [Primer shape](assets/session-primer.md) is optional.
+5. Load [continuity](references/session-continuity.md) for resumed/interrupted work or prior effects; [reporting parameters](references/clickup-routing.md) for an authorized report update; [voice waiting](references/voice-waiting.md) during calls/background work; [verification and authority](references/verification-and-authority.md) for uncertain sources or effects. Record selected/skipped resources with reasons. Reading is not context eviction.
+6. Finalize any already-authorized material update to the existing full report/ledger through its applicable artifact workflow, preserving identity, history and human edits. Record actual verification or precise pending gaps. No-change avoids unnecessary versions. Initialization alone grants no new publication, task mutation, outreach or access authority.
+7. Retain one receipt in the existing work context. Separate technical readiness, briefing coverage, report persistence and delivery. Give a concise prioritized opening at a safe opportunity: what most needs attention, why first, and its next question. Handle one item at a time. While genuinely independent work runs, move to the next ready item instead of repeatedly asking the user to wait. Preparation or queued text is not proof of audible delivery.
 
 ## Core rules
 
-- Apply the routing ledger’s relevant entries; do not preload every listed skill. Verify a selected skill before use. Ledger entries are discovery hints and approved routing, not proof of availability, access or authority.
-- Preserve authorization, decisions, work ownership and completed/uncertain effects. Never replay a send because reporting failed or a transcript repeated.
-- Distinguish planned, running, sent, verified, blocked and complete. Unknown stays unknown; old evidence does not become fresh when reread.
-- While work is pending, aim for a short update after 30 seconds without either party speaking, only with sufficient activity evidence and a safe opportunity. Without runtime support this is best-effort, not a timer.
-- Keep progress local and use the ledger’s reporting route when due and authorized. Initialization alone never authorizes publication.
+- Apply relevant ledger entries; read a selected skill before use, without preloading every package. Routing is not availability, access or authority.
+- ClickUp remains authoritative for its queue. User decisions, provider states and derived summaries stay distinct. Do not create a second independently edited backlog.
+- Preserve decisions, ownership and completed/uncertain effects. Repeated transcripts or invocation never replay sends or source changes.
+- Distinguish planned, running, sent, verified, blocked and complete. Historical active-worker wording is not current activity. New retrieval does not freshen old underlying evidence.
+- Before consequential decisions, verify the pertinent live source under the applicable routing and permissions.
+- Best-effort waiting updates retain the voice safety rules; this package does not configure a timer, background refresh service or automatic call hook.
