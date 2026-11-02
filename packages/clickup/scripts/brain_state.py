@@ -356,7 +356,7 @@ class Store:
             require(set(args)=={'workspace_id','task_id','include'} and args['include']==[],'identity read must be compact exact arguments')
             require(reported.get('reported_ids',{}).get('task_id') and args['task_id']==reported['reported_ids']['task_id'],'task ID not nominated by correlated create effect')
         elif kind=='task_content' and e['type']=='task_update':
-            require(tool=='clickup_get_task' and set(args)=={'workspace_id','task_id','include'} and args['task_id']==e['target_or_creation_rule']['task_id'] and args['include']==['description'], 'progress exact existing target read required')
+            require(tool=='clickup_get_task' and set(args)=={'workspace_id','task_id','include'} and args['task_id']==e['target_or_creation_rule']['task_id'] and args['include']==['description','dependencies'], 'progress exact existing target read required')
         elif kind=='task_content':
             require(e['type'] in {'report_create','attachment_add'} and tool=='clickup_get_task','content read unsupported effect')
             task_eid=e['target_or_creation_rule'].get('task_effect_id');binding=self._binding(b,task_eid,'task_identity')

@@ -95,17 +95,17 @@ class ProgressTests(unittest.TestCase):
             store.close()
     def test_11_typed_progress_readback_binds_exact_target(self):
         e=fixture()['effects'][0];b={'execution':True,'request':fixture(),'latest_return_id':'r','workspace_id':'w','returns':[{'effects':{'E1':{'reported_ids':{'task_id':'t'}}}}]}
-        d={'effect_id':'E1','effect_hash':m.digest(e),'return_id':'r','verification_kind':'task_content','tool':'clickup_get_task','arguments':{'workspace_id':'w','task_id':'t','include':['description']}}
+        d={'effect_id':'E1','effect_hash':m.digest(e),'return_id':'r','verification_kind':'task_content','tool':'clickup_get_task','arguments':{'workspace_id':'w','task_id':'t','include':['description','dependencies']}}
         store=m.Store.__new__(m.Store);store._validate_execution_read(b,d)
         d['arguments']['task_id']='other'
         with self.assertRaises(m.Invalid):store._validate_execution_read(b,d)
-        c={'effect_id':'E1','verification_kind':'task_content','return_id':'r','call_id':'v','arguments':{'workspace_id':'w','task_id':'t','include':['description']}}
+        c={'effect_id':'E1','verification_kind':'task_content','return_id':'r','call_id':'v','arguments':{'workspace_id':'w','task_id':'t','include':['description','dependencies']}}
         store._record_execution_read(b,c,json.dumps({'structuredContent':observed(e)}).encode());self.assertTrue(b['verification_bindings'][-1]['valid'])
 
 
     def test_12_changed_marker_content_conflict(self):
         e=fixture()['effects'][0];b={'execution':True,'request':fixture(),'latest_return_id':'r','workspace_id':'w','returns':[{'effects':{'E1':{'reported_ids':{'task_id':'t'}}}}]}
-        c={'effect_id':'E1','verification_kind':'task_content','return_id':'r','call_id':'v','arguments':{'workspace_id':'w','task_id':'t','include':['description']}}
+        c={'effect_id':'E1','verification_kind':'task_content','return_id':'r','call_id':'v','arguments':{'workspace_id':'w','task_id':'t','include':['description','dependencies']}}
         store=m.Store.__new__(m.Store);a=observed(e)
         store._record_execution_read(b,c,json.dumps({'structuredContent':a}).encode())
         a['markdown_description']+=' changed';c['call_id']='v2'
@@ -136,5 +136,22 @@ class ProgressTests(unittest.TestCase):
         with patch.object(store,'_assessment_invalidation',return_value=[]),patch.object(p,'validate',side_effect=m.Invalid('changed retained capability artifact')) as gate:
             with self.assertRaises(m.Invalid):store._reserve_continuation(b,d)
             gate.assert_called_once()
+
+
+    def test_17_progress_read_requires_exact_sections(self):
+        e=fixture()['effects'][0];b={'execution':True,'request':fixture(),'latest_return_id':'r','workspace_id':'w','returns':[{'effects':{'E1':{'reported_ids':{'task_id':'t'}}}}]}
+        d={'effect_id':'E1','effect_hash':m.digest(e),'return_id':'r','verification_kind':'task_content','tool':'clickup_get_task','arguments':{'workspace_id':'w','task_id':'t','include':['description','dependencies']}}
+        store=m.Store.__new__(m.Store);store._validate_execution_read(b,d)
+        for include in ([],['description'],['dependencies'],['dependencies','description'],['description','dependencies','watchers'],['description','dependencies','subtasks']):
+            d['arguments']['include']=include
+            with self.assertRaises(m.Invalid):store._validate_execution_read(b,d)
+    def test_18_compact_dependency_count_not_value(self):
+        # Schema-derived synthetic compact response, not a live provider receipt.
+        e=fixture()['effects'][0];e['baseline']['fields']['dependencies']=[]
+        a=observed(e);a.pop('dependencies');a['dependencies_count']=0
+        result=p.observe(e,a);self.assertFalse(result['valid']);self.assertIn('missing/changed unapproved field: dependencies',result['gaps'])
+        a['dependencies']=[];self.assertTrue(p.observe(e,a)['valid'])
+        e['baseline']['fields']['dependencies']=['existing'];a.pop('dependencies');a['dependencies_count']=1
+        self.assertFalse(p.observe(e,a)['valid']);a['dependencies']=['existing'];self.assertTrue(p.observe(e,a)['valid'])
 
 if __name__=='__main__':unittest.main()

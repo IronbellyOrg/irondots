@@ -101,12 +101,12 @@
     },
     {
       "id": "clickup",
-      "export_version": "1.3.0-public.1",
+      "export_version": "1.3.1-public.1",
       "source_files": [
         {
           "path": "SKILL.md",
-          "source_sha256": "9e59b3842d4cb7d8c37a45104bea0dca18a9fe5c438d5765b853e7c83467bc4d",
-          "export_sha256": "9e59b3842d4cb7d8c37a45104bea0dca18a9fe5c438d5765b853e7c83467bc4d",
+          "source_sha256": "ac2d6d72fbaf120977e4b5d33dc85d96f9ff2113d65a6cc0e9276547c68e003d",
+          "export_sha256": "ac2d6d72fbaf120977e4b5d33dc85d96f9ff2113d65a6cc0e9276547c68e003d",
           "changed": false
         },
         {
@@ -171,8 +171,8 @@
         },
         {
           "path": "references/brain-execution-v0.2.md",
-          "source_sha256": "a86d8ba38b157efeee78bbdb4a933e8b47a94ddb6799021196866539ea3e1fee",
-          "export_sha256": "a86d8ba38b157efeee78bbdb4a933e8b47a94ddb6799021196866539ea3e1fee",
+          "source_sha256": "ac471697b014b1f74c3f7b0d1616cb14c53694637e49baf70cc02a22f1a344b1",
+          "export_sha256": "ac471697b014b1f74c3f7b0d1616cb14c53694637e49baf70cc02a22f1a344b1",
           "changed": false
         },
         {
@@ -237,8 +237,8 @@
         },
         {
           "path": "scripts/brain_state.py",
-          "source_sha256": "67045e5fa253197763addee64e302647b2650294117b47bc2e27835c44a8edaf",
-          "export_sha256": "67045e5fa253197763addee64e302647b2650294117b47bc2e27835c44a8edaf",
+          "source_sha256": "0d86d82c8bc9033f7158cc8ef48385911944d48137888c6b2b1c91769bf9b5d6",
+          "export_sha256": "0d86d82c8bc9033f7158cc8ef48385911944d48137888c6b2b1c91769bf9b5d6",
           "changed": false
         },
         {
@@ -255,8 +255,8 @@
         },
         {
           "path": "tests/test_task_progress.py",
-          "source_sha256": "3eae37c2e7017729a9d30c21fec123eac075180ff8a3f62780bc4251cf0c89d0",
-          "export_sha256": "3eae37c2e7017729a9d30c21fec123eac075180ff8a3f62780bc4251cf0c89d0",
+          "source_sha256": "920baf09b8a2075f8c3eb4251728e38ec66cab84979e90150f61d818811ea67b",
+          "export_sha256": "920baf09b8a2075f8c3eb4251728e38ec66cab84979e90150f61d818811ea67b",
           "changed": false
         }
       ]

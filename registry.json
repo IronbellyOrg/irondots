@@ -60,7 +60,7 @@
     },
     {
       "id": "clickup",
-      "version": "1.3.0-public.1",
+      "version": "1.3.1-public.1",
       "path": "packages/clickup",
       "entrypoint": "SKILL.md",
       "runtimes": [
@@ -74,7 +74,7 @@
       },
       "public_files": {
         "PROVENANCE.md": "24101e63b40b86c17e74f8d0b4693298962ee9810cea88639696fdd92c58a2ec",
-        "SKILL.md": "9e59b3842d4cb7d8c37a45104bea0dca18a9fe5c438d5765b853e7c83467bc4d",
+        "SKILL.md": "ac2d6d72fbaf120977e4b5d33dc85d96f9ff2113d65a6cc0e9276547c68e003d",
         "agents/openai.yaml": "1664c23681d086485c2fc7db38530e6a812e1dba226b77268785187bd459e85a",
         "assets/batch-template.json": "554fb8dd617c26bc2628cf8d1f3343dc2b8c6d3d0632b27e6db7afb615fc24ed",
         "assets/brain-brief.md": "a412a0df9d09582e811db13803dcbbaa5c5bae3650774158e7f3e2e9aeeff305",
@@ -85,7 +85,7 @@
         "references/batch-contract.md": "76aebc944fb5fc46c18a7e56c8b4eeec90ee72fe1f928be0b562c842ab243542",
         "references/batch-plan.md": "52f269133e71a4d57571d03dac89cccf8fdc1bdbf64a050077911ff7627e5c95",
         "references/brain-execution-v0.1.md": "bc126b4baa2d90053fa361c642afd2e1a93361085f186f8658b00ae8766dfd6f",
-        "references/brain-execution-v0.2.md": "a86d8ba38b157efeee78bbdb4a933e8b47a94ddb6799021196866539ea3e1fee",
+        "references/brain-execution-v0.2.md": "ac471697b014b1f74c3f7b0d1616cb14c53694637e49baf70cc02a22f1a344b1",
         "references/brain-routing-continuity.md": "9bb279b1fe8cb76dfb413dca8656574aba4454eeb83bc13ddaaea3578f454eee",
         "references/execution-gates.md": "d845223c5b3dad40600d8299b6e22b01a9fb9c5a1cad33ae1cb85d2e62f1218b",
         "references/handoff-reconciliation.md": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
@@ -96,10 +96,10 @@
         "references/unanswered-review.md": "1d184f1d0c772955ae733c144858f90c98406059de57f19960b47e968c18e060",
         "references/waiting-and-budget.md": "a86a8b573f6e63d86831ffc9cd2ba6da5c85a0fe7c6d237e8c62db1631b15995",
         "scripts/batch_stage.py": "ca155aaf416c73442aeeb7fdb09b703b47ce8d00eed5e64c8c81db914a333dc5",
-        "scripts/brain_state.py": "67045e5fa253197763addee64e302647b2650294117b47bc2e27835c44a8edaf",
+        "scripts/brain_state.py": "0d86d82c8bc9033f7158cc8ef48385911944d48137888c6b2b1c91769bf9b5d6",
         "scripts/native_adapter.py": "a5b773971b98c8d47da663ba6427040d813a24f4b694fbcbfe9afcae39ec8682",
         "scripts/task_progress.py": "bced3ef66ceb3a90d7926f4ffea98b32eabee5310c98c583f50e18a3b99ae487",
-        "tests/test_task_progress.py": "3eae37c2e7017729a9d30c21fec123eac075180ff8a3f62780bc4251cf0c89d0"
+        "tests/test_task_progress.py": "920baf09b8a2075f8c3eb4251728e38ec66cab84979e90150f61d818811ea67b"
       },
       "publication_approved": false
     },
