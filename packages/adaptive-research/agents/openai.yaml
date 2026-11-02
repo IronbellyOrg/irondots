@@ -1,0 +1,14 @@
+interface:
+  display_name: Adaptive Research
+  short_description: Evidence-led research with proportionate depth
+  default_prompt: Use $adaptive-research to investigate this question at an appropriate
+    depth, preserving my scope and reporting evidence and uncertainty.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

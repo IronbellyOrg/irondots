@@ -1,0 +1,435 @@
+{
+  "export_date": "2026-11-02",
+  "repository": "https://github.com/IronbellyOrg/irondots",
+  "notice": "Sanitized source export, not exact installed bytes or runtime certification. Export versions without known native semantic version are repository-only identifiers. No release authorization.",
+  "packages": [
+    {
+      "id": "session-init",
+      "export_version": "1.1.1-public.1",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "ed0096ec193697b4595c45204b6dadc68df902bc415b02ffc8aaeaf8c4680827",
+          "export_sha256": "ed0096ec193697b4595c45204b6dadc68df902bc415b02ffc8aaeaf8c4680827",
+          "changed": false
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "32b775b7925888eca637433f9146cc4d01dc3285123d294826239bfed0b4d073",
+          "export_sha256": "32b775b7925888eca637433f9146cc4d01dc3285123d294826239bfed0b4d073",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+          "export_sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+          "changed": false
+        },
+        {
+          "path": "assets/session-primer.md",
+          "source_sha256": "7bfca8c76c756bc26a2150e088afd0849919eb8a89084c0621562b871f59eb77",
+          "export_sha256": "7bfca8c76c756bc26a2150e088afd0849919eb8a89084c0621562b871f59eb77",
+          "changed": false
+        },
+        {
+          "path": "assets/session-receipt.md",
+          "source_sha256": "966c4d6d55af0b741d228fe6a8f088b5c6b6c16732943a81e7bd654356550e7b",
+          "export_sha256": "966c4d6d55af0b741d228fe6a8f088b5c6b6c16732943a81e7bd654356550e7b",
+          "changed": false
+        },
+        {
+          "path": "references/clickup-routing.md",
+          "source_sha256": "56a21baee7d273d9e125f4a453e9fbdd43b68dbb2e500d45ef07411463620283",
+          "export_sha256": "2d5eb82330f99e1c36c817ba98dafb43393bbcbec20c8428a398930e467e2ce6",
+          "changed": true
+        },
+        {
+          "path": "references/session-continuity.md",
+          "source_sha256": "34ee6b30e715c6053b26fd5804192aaa0ad275dec9954155335a1582fa66b8b7",
+          "export_sha256": "34ee6b30e715c6053b26fd5804192aaa0ad275dec9954155335a1582fa66b8b7",
+          "changed": false
+        },
+        {
+          "path": "references/skill-routing-ledger.md",
+          "source_sha256": "818e85d6924c64549cd7290187526c24b5972d9ad41a527b9ccf2b7f4e9268ae",
+          "export_sha256": "b513a682a4c216b22e76684e67ccdb356ce28a65d19c75ab7d5c195663dad95b",
+          "changed": true
+        },
+        {
+          "path": "references/verification-and-authority.md",
+          "source_sha256": "4862cb189bc2c0ab56907f2fc16610c833968005fb2fc29a8065d3d621384d40",
+          "export_sha256": "4862cb189bc2c0ab56907f2fc16610c833968005fb2fc29a8065d3d621384d40",
+          "changed": false
+        },
+        {
+          "path": "references/voice-waiting.md",
+          "source_sha256": "f7f7a6fac8fa8c325e5f224c74a4d997e8cceda6c1812d9da21a190eece50866",
+          "export_sha256": "f7f7a6fac8fa8c325e5f224c74a4d997e8cceda6c1812d9da21a190eece50866",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "id": "task-list",
+      "export_version": "1.0.0-public.1",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "9d6d28b9003641e5927faa6ee1d4f99c06d104e75289de6eb74597edd6a3f0c2",
+          "export_sha256": "9d6d28b9003641e5927faa6ee1d4f99c06d104e75289de6eb74597edd6a3f0c2",
+          "changed": false
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "44c925cc1f79da4ebe3eab7298722aa3510f554ed85e440fea2438b875bf08d5",
+          "export_sha256": "44c925cc1f79da4ebe3eab7298722aa3510f554ed85e440fea2438b875bf08d5",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+          "export_sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+          "changed": false
+        },
+        {
+          "path": "assets/task-list.md",
+          "source_sha256": "26c605766a861dbac1be9c91bb492e196a91584a1b7ac14ae5315d3f7815a23c",
+          "export_sha256": "26c605766a861dbac1be9c91bb492e196a91584a1b7ac14ae5315d3f7815a23c",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "id": "clickup",
+      "export_version": "1.3.0-public.1",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "9e59b3842d4cb7d8c37a45104bea0dca18a9fe5c438d5765b853e7c83467bc4d",
+          "export_sha256": "9e59b3842d4cb7d8c37a45104bea0dca18a9fe5c438d5765b853e7c83467bc4d",
+          "changed": false
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "1664c23681d086485c2fc7db38530e6a812e1dba226b77268785187bd459e85a",
+          "export_sha256": "1664c23681d086485c2fc7db38530e6a812e1dba226b77268785187bd459e85a",
+          "changed": false
+        },
+        {
+          "path": "assets/batch-template.json",
+          "source_sha256": "554fb8dd617c26bc2628cf8d1f3343dc2b8c6d3d0632b27e6db7afb615fc24ed",
+          "export_sha256": "554fb8dd617c26bc2628cf8d1f3343dc2b8c6d3d0632b27e6db7afb615fc24ed",
+          "changed": false
+        },
+        {
+          "path": "assets/brain-brief.md",
+          "source_sha256": "a412a0df9d09582e811db13803dcbbaa5c5bae3650774158e7f3e2e9aeeff305",
+          "export_sha256": "a412a0df9d09582e811db13803dcbbaa5c5bae3650774158e7f3e2e9aeeff305",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "export_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "changed": false
+        },
+        {
+          "path": "assets/reporting-request.md",
+          "source_sha256": "8c1a6497dfdf40b78e18178b2a9fcc1a44c1e33f2ca5f9f7b293bc9787211517",
+          "export_sha256": "59e78838b34b709f7e0ccc7f36d06b6bdbdb55f9608a946d3914bf8a55e73971",
+          "changed": true
+        },
+        {
+          "path": "assets/reporting-result.md",
+          "source_sha256": "de652fdd42dbe2c2ae0f626961a1c54ecde36eea510e02645c8c4e0bb705c644",
+          "export_sha256": "43dbc126673350a5d05bcb0931553fd22e903bb9b9f021903f848e8d820c1629",
+          "changed": true
+        },
+        {
+          "path": "references/authoring-delegation-v1.md",
+          "source_sha256": "8652115ff8f46e8d02b6205a52474ea859322a30abeb86312a07cd4e2d92b411",
+          "export_sha256": "8652115ff8f46e8d02b6205a52474ea859322a30abeb86312a07cd4e2d92b411",
+          "changed": false
+        },
+        {
+          "path": "references/batch-contract.md",
+          "source_sha256": "76aebc944fb5fc46c18a7e56c8b4eeec90ee72fe1f928be0b562c842ab243542",
+          "export_sha256": "76aebc944fb5fc46c18a7e56c8b4eeec90ee72fe1f928be0b562c842ab243542",
+          "changed": false
+        },
+        {
+          "path": "references/batch-plan.md",
+          "source_sha256": "52f269133e71a4d57571d03dac89cccf8fdc1bdbf64a050077911ff7627e5c95",
+          "export_sha256": "52f269133e71a4d57571d03dac89cccf8fdc1bdbf64a050077911ff7627e5c95",
+          "changed": false
+        },
+        {
+          "path": "references/brain-execution-v0.1.md",
+          "source_sha256": "6bf81a8c8f3038a164b74656919df76b8dd9a5ff40028f15da2d08dd63d69a76",
+          "export_sha256": "bc126b4baa2d90053fa361c642afd2e1a93361085f186f8658b00ae8766dfd6f",
+          "changed": true
+        },
+        {
+          "path": "references/brain-execution-v0.2.md",
+          "source_sha256": "a86d8ba38b157efeee78bbdb4a933e8b47a94ddb6799021196866539ea3e1fee",
+          "export_sha256": "a86d8ba38b157efeee78bbdb4a933e8b47a94ddb6799021196866539ea3e1fee",
+          "changed": false
+        },
+        {
+          "path": "references/brain-routing-continuity.md",
+          "source_sha256": "d362d51510241333c5c2341b027c93cd17e6544b819192b1b7e80dd886df8e12",
+          "export_sha256": "9bb279b1fe8cb76dfb413dca8656574aba4454eeb83bc13ddaaea3578f454eee",
+          "changed": true
+        },
+        {
+          "path": "references/execution-gates.md",
+          "source_sha256": "d845223c5b3dad40600d8299b6e22b01a9fb9c5a1cad33ae1cb85d2e62f1218b",
+          "export_sha256": "d845223c5b3dad40600d8299b6e22b01a9fb9c5a1cad33ae1cb85d2e62f1218b",
+          "changed": false
+        },
+        {
+          "path": "references/handoff-reconciliation.md",
+          "source_sha256": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
+          "export_sha256": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
+          "changed": false
+        },
+        {
+          "path": "references/preparation-reply.md",
+          "source_sha256": "e80208571f0eaa2571a591c0188d85e3612886a2bf8cc3ff467e4d8aee45595e",
+          "export_sha256": "e80208571f0eaa2571a591c0188d85e3612886a2bf8cc3ff467e4d8aee45595e",
+          "changed": false
+        },
+        {
+          "path": "references/reporting-protocol-v1.md",
+          "source_sha256": "d0aadb2b5a99cd869f0d3e80118ef2237be8f74099de5ad775568ef791572619",
+          "export_sha256": "e9a243b9be1ff622dbacd4479f5117a6acfa183572b0c5cf1abbdd940e978686",
+          "changed": true
+        },
+        {
+          "path": "references/result-normalization.md",
+          "source_sha256": "d12167ffdbc1cfc3d98e7b0a40b6fcb7a018c7192b89172e92716aea8e9d8ef8",
+          "export_sha256": "d12167ffdbc1cfc3d98e7b0a40b6fcb7a018c7192b89172e92716aea8e9d8ef8",
+          "changed": false
+        },
+        {
+          "path": "references/task-list-progress-v0.1.md",
+          "source_sha256": "f9fe997eec5c6539026105c8c6397b20656973bef1bbc1b56a109353d661429b",
+          "export_sha256": "a67847593a669aca6e31b268033abee385a2816752a5555305acf9933c3ea984",
+          "changed": true
+        },
+        {
+          "path": "references/unanswered-review.md",
+          "source_sha256": "d466c2e98d1f1a3d16aff254b9bfe25c780040d7d24677e358a1acd73a54831d",
+          "export_sha256": "1d184f1d0c772955ae733c144858f90c98406059de57f19960b47e968c18e060",
+          "changed": true
+        },
+        {
+          "path": "references/waiting-and-budget.md",
+          "source_sha256": "a86a8b573f6e63d86831ffc9cd2ba6da5c85a0fe7c6d237e8c62db1631b15995",
+          "export_sha256": "a86a8b573f6e63d86831ffc9cd2ba6da5c85a0fe7c6d237e8c62db1631b15995",
+          "changed": false
+        },
+        {
+          "path": "scripts/batch_stage.py",
+          "source_sha256": "ca155aaf416c73442aeeb7fdb09b703b47ce8d00eed5e64c8c81db914a333dc5",
+          "export_sha256": "ca155aaf416c73442aeeb7fdb09b703b47ce8d00eed5e64c8c81db914a333dc5",
+          "changed": false
+        },
+        {
+          "path": "scripts/brain_state.py",
+          "source_sha256": "67045e5fa253197763addee64e302647b2650294117b47bc2e27835c44a8edaf",
+          "export_sha256": "67045e5fa253197763addee64e302647b2650294117b47bc2e27835c44a8edaf",
+          "changed": false
+        },
+        {
+          "path": "scripts/native_adapter.py",
+          "source_sha256": "a5b773971b98c8d47da663ba6427040d813a24f4b694fbcbfe9afcae39ec8682",
+          "export_sha256": "a5b773971b98c8d47da663ba6427040d813a24f4b694fbcbfe9afcae39ec8682",
+          "changed": false
+        },
+        {
+          "path": "scripts/task_progress.py",
+          "source_sha256": "bced3ef66ceb3a90d7926f4ffea98b32eabee5310c98c583f50e18a3b99ae487",
+          "export_sha256": "bced3ef66ceb3a90d7926f4ffea98b32eabee5310c98c583f50e18a3b99ae487",
+          "changed": false
+        },
+        {
+          "path": "tests/test_task_progress.py",
+          "source_sha256": "3eae37c2e7017729a9d30c21fec123eac075180ff8a3f62780bc4251cf0c89d0",
+          "export_sha256": "3eae37c2e7017729a9d30c21fec123eac075180ff8a3f62780bc4251cf0c89d0",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "id": "dot-spec-generator",
+      "export_version": "0.1.0-export.20261102",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "6210507cfe6d21daef54c249d2ea2f7ee7a20a9885933837027bc8364a40b81e",
+          "export_sha256": "4e092715797cf19043a969978f951cc781f41dd1ae38ffabd5b3671f77713ac8",
+          "changed": true
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "d7f4576fc682255688a83bb02133b9387789bdb2a416c02c115e063c3c924b4b",
+          "export_sha256": "d7f4576fc682255688a83bb02133b9387789bdb2a416c02c115e063c3c924b4b",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "export_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "changed": false
+        },
+        {
+          "path": "assets/specification.md",
+          "source_sha256": "d79964c10a40cf56037b5c0d6d03acd3b4213820199b523b13da9c7c3c42158d",
+          "export_sha256": "9ffca5cfc843382674db58fc977881d7b1980f8de53dc8a1a2576acc1c08ee5e",
+          "changed": true
+        },
+        {
+          "path": "references/adaptive-research-handoff.md",
+          "source_sha256": "f454bdc65c0dd4ce77b160f4216d3f175a08265b4373e01bdad4175623dc83d5",
+          "export_sha256": "f454bdc65c0dd4ce77b160f4216d3f175a08265b4373e01bdad4175623dc83d5",
+          "changed": false
+        },
+        {
+          "path": "references/authoring-delegation-v1.md",
+          "source_sha256": "8652115ff8f46e8d02b6205a52474ea859322a30abeb86312a07cd4e2d92b411",
+          "export_sha256": "8652115ff8f46e8d02b6205a52474ea859322a30abeb86312a07cd4e2d92b411",
+          "changed": false
+        },
+        {
+          "path": "references/brownfield-changes.md",
+          "source_sha256": "c3a06890aa52f3fc1b7464044ef07cb8712c9af19ffd512a51dccf7f8f262294",
+          "export_sha256": "c3a06890aa52f3fc1b7464044ef07cb8712c9af19ffd512a51dccf7f8f262294",
+          "changed": false
+        },
+        {
+          "path": "references/continuity-publication.md",
+          "source_sha256": "d7657ea36e3a376e52caf0f35f7cb9346bb31de4fd171fd474ea8e8b8b4dac27",
+          "export_sha256": "09ed0c4867e975c194edd435bca9277df727a18361ee3ccaeac4bbb5e085e4cc",
+          "changed": true
+        },
+        {
+          "path": "references/research-authoring.md",
+          "source_sha256": "d2e92bc107f686914d1dafd39fe62432ca768c86adb2f8227ccb5e8f2d758335",
+          "export_sha256": "d2e92bc107f686914d1dafd39fe62432ca768c86adb2f8227ccb5e8f2d758335",
+          "changed": false
+        },
+        {
+          "path": "references/source-adaptation.md",
+          "source_sha256": "bd5cd49753a22b9efe793753c2edcede795e37b51c3210e744073467833959f2",
+          "export_sha256": "bd5cd49753a22b9efe793753c2edcede795e37b51c3210e744073467833959f2",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive-research",
+      "export_version": "0.1.0-export.20261102",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "bd41af21dcb042d0b68bfed6c6e4e52d5b4d3909259afae70e77dcbe7f5063c4",
+          "export_sha256": "bd41af21dcb042d0b68bfed6c6e4e52d5b4d3909259afae70e77dcbe7f5063c4",
+          "changed": false
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "88af5e762070047444bd058b61b0208aa9f4dd875b426f4216696d1e6bdff053",
+          "export_sha256": "88af5e762070047444bd058b61b0208aa9f4dd875b426f4216696d1e6bdff053",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+          "export_sha256": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+          "changed": false
+        },
+        {
+          "path": "assets/research-result.md",
+          "source_sha256": "0ddf441f41eb542b10fb93aad86ceeff9e31b5d97e2587071e9b040c196da183",
+          "export_sha256": "0ddf441f41eb542b10fb93aad86ceeff9e31b5d97e2587071e9b040c196da183",
+          "changed": false
+        },
+        {
+          "path": "references/capability-adapters.md",
+          "source_sha256": "e00ba6cf5c13143eaf62c43fb69b79ccf7b64099793730a8620481327e378482",
+          "export_sha256": "e00ba6cf5c13143eaf62c43fb69b79ccf7b64099793730a8620481327e378482",
+          "changed": false
+        },
+        {
+          "path": "references/deep-research.md",
+          "source_sha256": "94db65a11f84ccffbc464a9e7784ed79a530cd3dcb27f1dcbebf86362b2b5313",
+          "export_sha256": "94db65a11f84ccffbc464a9e7784ed79a530cd3dcb27f1dcbebf86362b2b5313",
+          "changed": false
+        },
+        {
+          "path": "references/evidence-protocol.md",
+          "source_sha256": "eb37c4319e226d8671c888319ad2bcf01930d2789331a34b2d4d48b180795b45",
+          "export_sha256": "eb37c4319e226d8671c888319ad2bcf01930d2789331a34b2d4d48b180795b45",
+          "changed": false
+        },
+        {
+          "path": "references/intake-depth.md",
+          "source_sha256": "3d4e4329d44ee37fb71e523966943e7820bbb374953ff4a0f1202eadc0808059",
+          "export_sha256": "3d4e4329d44ee37fb71e523966943e7820bbb374953ff4a0f1202eadc0808059",
+          "changed": false
+        },
+        {
+          "path": "references/synthesis-review.md",
+          "source_sha256": "1de39065d0e17a3b403163545b8a340089e5c0a3e5c60b002c12039fb0e11330",
+          "export_sha256": "1de39065d0e17a3b403163545b8a340089e5c0a3e5c60b002c12039fb0e11330",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "id": "codex-to-dot-porter",
+      "export_version": "0.1.0-export.20261102",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "577668ece8f5b0c4499fee8e6d537b3eb26eac94cbdc738e5cc9c33e34caa7a9",
+          "export_sha256": "1e44770df7aafcd5af0cb34c9c33bfe3e894fddae5d0a1a8329dbad5261197aa",
+          "changed": true
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "896661344c974532846a1ecf88a34ed5828958bd5bd1e0363baefe7b46ad602b",
+          "export_sha256": "896661344c974532846a1ecf88a34ed5828958bd5bd1e0363baefe7b46ad602b",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+          "export_sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+          "changed": false
+        },
+        {
+          "path": "assets/port-result.md",
+          "source_sha256": "9ac1beb055aaed377f694557bfb9f4e08b4b7122f41fd8df8e1b753a59257077",
+          "export_sha256": "9ac1beb055aaed377f694557bfb9f4e08b4b7122f41fd8df8e1b753a59257077",
+          "changed": false
+        },
+        {
+          "path": "references/porting-protocol.md",
+          "source_sha256": "70b2ffbd7c70ddd1d2d2c0b5ab9a20683a6df4d2a9eb71850fb6739d8acd4a52",
+          "export_sha256": "70b2ffbd7c70ddd1d2d2c0b5ab9a20683a6df4d2a9eb71850fb6739d8acd4a52",
+          "changed": false
+        }
+      ]
+    }
+  ],
+  "additional_export_files": [
+    {
+      "path": "packages/task-list/tests/test_task_list_contract.py",
+      "source_sha256": "15e6a217f942045a6b940ce0930d89fb106a7bacbeaf4783507978d1e321e34c",
+      "export_sha256": "23a3f2617d2b3d44d380fa74df1bfa308e555345279d5f992e975be4685452ca",
+      "difference": "Default test path changed from private managed root to package-relative; environment override preserved."
+    }
+  ]
+}

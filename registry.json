@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "packages": [
+    {
+      "id": "session-init",
+      "version": "1.1.1-public.1",
+      "path": "packages/session-init",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [
+        "clickup"
+      ],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "No open-source license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "PROVENANCE.md": "0accbc2f531901e5d5a1fed87dff9607664d550476f36dfd9f55ac0be4e7b8ca",
+        "SKILL.md": "ed0096ec193697b4595c45204b6dadc68df902bc415b02ffc8aaeaf8c4680827",
+        "agents/openai.yaml": "32b775b7925888eca637433f9146cc4d01dc3285123d294826239bfed0b4d073",
+        "assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+        "assets/session-primer.md": "7bfca8c76c756bc26a2150e088afd0849919eb8a89084c0621562b871f59eb77",
+        "assets/session-receipt.md": "966c4d6d55af0b741d228fe6a8f088b5c6b6c16732943a81e7bd654356550e7b",
+        "references/clickup-routing.md": "2d5eb82330f99e1c36c817ba98dafb43393bbcbec20c8428a398930e467e2ce6",
+        "references/session-continuity.md": "34ee6b30e715c6053b26fd5804192aaa0ad275dec9954155335a1582fa66b8b7",
+        "references/skill-routing-ledger.md": "b513a682a4c216b22e76684e67ccdb356ce28a65d19c75ab7d5c195663dad95b",
+        "references/verification-and-authority.md": "4862cb189bc2c0ab56907f2fc16610c833968005fb2fc29a8065d3d621384d40",
+        "references/voice-waiting.md": "f7f7a6fac8fa8c325e5f224c74a4d997e8cceda6c1812d9da21a190eece50866"
+      },
+      "publication_approved": false
+    },
+    {
+      "id": "task-list",
+      "version": "1.0.0-public.1",
+      "path": "packages/task-list",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [
+        "clickup"
+      ],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "No open-source license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "PROVENANCE.md": "b52a3f1d405af0611e0da657cc773317b942a9f9f0568286bc7b22a65ecac54d",
+        "SKILL.md": "9d6d28b9003641e5927faa6ee1d4f99c06d104e75289de6eb74597edd6a3f0c2",
+        "agents/openai.yaml": "44c925cc1f79da4ebe3eab7298722aa3510f554ed85e440fea2438b875bf08d5",
+        "assets/icon.svg": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+        "assets/task-list.md": "26c605766a861dbac1be9c91bb492e196a91584a1b7ac14ae5315d3f7815a23c",
+        "tests/test_task_list_contract.py": "23a3f2617d2b3d44d380fa74df1bfa308e555345279d5f992e975be4685452ca"
+      },
+      "publication_approved": false
+    },
+    {
+      "id": "clickup",
+      "version": "1.3.0-public.1",
+      "path": "packages/clickup",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "No open-source license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "PROVENANCE.md": "24101e63b40b86c17e74f8d0b4693298962ee9810cea88639696fdd92c58a2ec",
+        "SKILL.md": "9e59b3842d4cb7d8c37a45104bea0dca18a9fe5c438d5765b853e7c83467bc4d",
+        "agents/openai.yaml": "1664c23681d086485c2fc7db38530e6a812e1dba226b77268785187bd459e85a",
+        "assets/batch-template.json": "554fb8dd617c26bc2628cf8d1f3343dc2b8c6d3d0632b27e6db7afb615fc24ed",
+        "assets/brain-brief.md": "a412a0df9d09582e811db13803dcbbaa5c5bae3650774158e7f3e2e9aeeff305",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "assets/reporting-request.md": "59e78838b34b709f7e0ccc7f36d06b6bdbdb55f9608a946d3914bf8a55e73971",
+        "assets/reporting-result.md": "43dbc126673350a5d05bcb0931553fd22e903bb9b9f021903f848e8d820c1629",
+        "references/authoring-delegation-v1.md": "8652115ff8f46e8d02b6205a52474ea859322a30abeb86312a07cd4e2d92b411",
+        "references/batch-contract.md": "76aebc944fb5fc46c18a7e56c8b4eeec90ee72fe1f928be0b562c842ab243542",
+        "references/batch-plan.md": "52f269133e71a4d57571d03dac89cccf8fdc1bdbf64a050077911ff7627e5c95",
+        "references/brain-execution-v0.1.md": "bc126b4baa2d90053fa361c642afd2e1a93361085f186f8658b00ae8766dfd6f",
+        "references/brain-execution-v0.2.md": "a86d8ba38b157efeee78bbdb4a933e8b47a94ddb6799021196866539ea3e1fee",
+        "references/brain-routing-continuity.md": "9bb279b1fe8cb76dfb413dca8656574aba4454eeb83bc13ddaaea3578f454eee",
+        "references/execution-gates.md": "d845223c5b3dad40600d8299b6e22b01a9fb9c5a1cad33ae1cb85d2e62f1218b",
+        "references/handoff-reconciliation.md": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
+        "references/preparation-reply.md": "e80208571f0eaa2571a591c0188d85e3612886a2bf8cc3ff467e4d8aee45595e",
+        "references/reporting-protocol-v1.md": "e9a243b9be1ff622dbacd4479f5117a6acfa183572b0c5cf1abbdd940e978686",
+        "references/result-normalization.md": "d12167ffdbc1cfc3d98e7b0a40b6fcb7a018c7192b89172e92716aea8e9d8ef8",
+        "references/task-list-progress-v0.1.md": "a67847593a669aca6e31b268033abee385a2816752a5555305acf9933c3ea984",
+        "references/unanswered-review.md": "1d184f1d0c772955ae733c144858f90c98406059de57f19960b47e968c18e060",
+        "references/waiting-and-budget.md": "a86a8b573f6e63d86831ffc9cd2ba6da5c85a0fe7c6d237e8c62db1631b15995",
+        "scripts/batch_stage.py": "ca155aaf416c73442aeeb7fdb09b703b47ce8d00eed5e64c8c81db914a333dc5",
+        "scripts/brain_state.py": "67045e5fa253197763addee64e302647b2650294117b47bc2e27835c44a8edaf",
+        "scripts/native_adapter.py": "a5b773971b98c8d47da663ba6427040d813a24f4b694fbcbfe9afcae39ec8682",
+        "scripts/task_progress.py": "bced3ef66ceb3a90d7926f4ffea98b32eabee5310c98c583f50e18a3b99ae487",
+        "tests/test_task_progress.py": "3eae37c2e7017729a9d30c21fec123eac075180ff8a3f62780bc4251cf0c89d0"
+      },
+      "publication_approved": false
+    },
+    {
+      "id": "dot-spec-generator",
+      "version": "0.1.0-export.20261102",
+      "path": "packages/dot-spec-generator",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [
+        "clickup"
+      ],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "No open-source license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "PROVENANCE.md": "0e3f10673d0509c2a5d407bb785c238c8e31e0147419605889daf4cba17dba1a",
+        "SKILL.md": "4e092715797cf19043a969978f951cc781f41dd1ae38ffabd5b3671f77713ac8",
+        "agents/openai.yaml": "d7f4576fc682255688a83bb02133b9387789bdb2a416c02c115e063c3c924b4b",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "assets/specification.md": "9ffca5cfc843382674db58fc977881d7b1980f8de53dc8a1a2576acc1c08ee5e",
+        "references/adaptive-research-handoff.md": "f454bdc65c0dd4ce77b160f4216d3f175a08265b4373e01bdad4175623dc83d5",
+        "references/authoring-delegation-v1.md": "8652115ff8f46e8d02b6205a52474ea859322a30abeb86312a07cd4e2d92b411",
+        "references/brownfield-changes.md": "c3a06890aa52f3fc1b7464044ef07cb8712c9af19ffd512a51dccf7f8f262294",
+        "references/continuity-publication.md": "09ed0c4867e975c194edd435bca9277df727a18361ee3ccaeac4bbb5e085e4cc",
+        "references/research-authoring.md": "d2e92bc107f686914d1dafd39fe62432ca768c86adb2f8227ccb5e8f2d758335",
+        "references/source-adaptation.md": "bd5cd49753a22b9efe793753c2edcede795e37b51c3210e744073467833959f2"
+      },
+      "publication_approved": false
+    },
+    {
+      "id": "adaptive-research",
+      "version": "0.1.0-export.20261102",
+      "path": "packages/adaptive-research",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "No open-source license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "PROVENANCE.md": "30f2c9390b2b7d2be31b2b501c235c09004b7637fcffef80923c08c50299ee18",
+        "SKILL.md": "bd41af21dcb042d0b68bfed6c6e4e52d5b4d3909259afae70e77dcbe7f5063c4",
+        "agents/openai.yaml": "88af5e762070047444bd058b61b0208aa9f4dd875b426f4216696d1e6bdff053",
+        "assets/icon.svg": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+        "assets/research-result.md": "0ddf441f41eb542b10fb93aad86ceeff9e31b5d97e2587071e9b040c196da183",
+        "references/capability-adapters.md": "e00ba6cf5c13143eaf62c43fb69b79ccf7b64099793730a8620481327e378482",
+        "references/deep-research.md": "94db65a11f84ccffbc464a9e7784ed79a530cd3dcb27f1dcbebf86362b2b5313",
+        "references/evidence-protocol.md": "eb37c4319e226d8671c888319ad2bcf01930d2789331a34b2d4d48b180795b45",
+        "references/intake-depth.md": "3d4e4329d44ee37fb71e523966943e7820bbb374953ff4a0f1202eadc0808059",
+        "references/synthesis-review.md": "1de39065d0e17a3b403163545b8a340089e5c0a3e5c60b002c12039fb0e11330"
+      },
+      "publication_approved": false
+    },
+    {
+      "id": "codex-to-dot-porter",
+      "version": "0.1.0-export.20261102",
+      "path": "packages/codex-to-dot-porter",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [
+        "clickup"
+      ],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "No open-source license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "PROVENANCE.md": "8c0c4946d3db4b00a1a2414bb5b9a90cd482195a7c72d6334d8ee21c823037d9",
+        "SKILL.md": "1e44770df7aafcd5af0cb34c9c33bfe3e894fddae5d0a1a8329dbad5261197aa",
+        "agents/openai.yaml": "896661344c974532846a1ecf88a34ed5828958bd5bd1e0363baefe7b46ad602b",
+        "assets/icon.svg": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+        "assets/port-result.md": "9ac1beb055aaed377f694557bfb9f4e08b4b7122f41fd8df8e1b753a59257077",
+        "references/porting-protocol.md": "70b2ffbd7c70ddd1d2d2c0b5ab9a20683a6df4d2a9eb71850fb6739d8acd4a52"
+      },
+      "publication_approved": false
+    }
+  ]
+}

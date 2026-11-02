@@ -1,0 +1,38 @@
+{
+  "schema": "dot-approved-batch/0.1",
+  "batch_id": "REPLACE",
+  "scope_revision": 1,
+  "canonical_work": null,
+  "execution_owner": null,
+  "publication_owner": null,
+  "scope": {},
+  "cutoff": null,
+  "generated_at": null,
+  "privacy": {
+    "audience": [],
+    "raw_export_allowed": false
+  },
+  "observations": [],
+  "projections": [],
+  "relationships": [],
+  "coverage_checkpoints": [],
+  "actions": [],
+  "approvals": [],
+  "attempts": [],
+  "effect_receipts": [],
+  "handoffs": [],
+  "budget": {
+    "limit": 0,
+    "reserve": 0,
+    "consumed": 0,
+    "events": []
+  },
+  "cancellation": false,
+  "next_observation_at": null,
+  "persistence": {
+    "kind": "sqlite-local-ledger",
+    "durability_verified": false,
+    "exclusive_owner_verified": false
+  },
+  "dispatch_enabled": false
+}

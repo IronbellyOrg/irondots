@@ -1,0 +1,97 @@
+name: Gated draft release
+
+# Manual only. Publishing the resulting draft is a separate maintainer action.
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (bare SemVer, for example 0.1.0)'
+        required: true
+        type: string
+      expected_commit:
+        description: 'Full 40-character main commit reviewed for public distribution'
+        required: true
+        type: string
+      confirmation:
+        description: 'Type CREATE REVIEWED DRAFT to confirm public-content and license review'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: irondots-draft-release
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    if: >-
+      github.repository == 'IronbellyOrg/irondots' &&
+      github.ref == 'refs/heads/main' &&
+      inputs.confirmation == 'CREATE REVIEWED DRAFT' &&
+      inputs.expected_commit == github.sha
+    runs-on: [self-hosted, small]
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash
+    env:
+      RELEASE_VERSION: ${{ inputs.version }}
+      EXPECTED_COMMIT: ${{ inputs.expected_commit }}
+    steps:
+      - name: Checkout exact reviewed main commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          clean: true
+      - name: Verify identity, test and build allowlisted package
+        env:
+          ACTUAL_COMMIT: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          [[ "$EXPECTED_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+          [[ "$EXPECTED_COMMIT" == "$ACTUAL_COMMIT" ]]
+          [[ "$RELEASE_VERSION" =~ ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]]
+          command -v gh >/dev/null
+          python3 scripts/validate_registry.py
+          python3 -m unittest discover -s tests -v
+          output="$RUNNER_TEMP/irondots-release-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          python3 scripts/package_release.py --version "$RELEASE_VERSION" --commit "$EXPECTED_COMMIT" --output "$output"
+      - name: Create draft only; never overwrite an existing release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          output="$RUNNER_TEMP/irondots-release-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          # Refuse pre-existing tags: --target does not retarget an existing tag.
+          matches="$(gh api "repos/$GH_REPO/git/matching-refs/tags/v$RELEASE_VERSION" --jq length)"
+          [[ "$matches" == "0" ]] || { echo "Version tag already exists; choose a new version." >&2; exit 1; }
+          # Atomic create fails if another maintainer wins the tag race.
+          gh api --method POST "repos/$GH_REPO/git/refs" \
+            -f "ref=refs/tags/v$RELEASE_VERSION" -f "sha=$EXPECTED_COMMIT" >/dev/null
+          bound="$(gh api "repos/$GH_REPO/git/ref/tags/v$RELEASE_VERSION" --jq .object.sha)"
+          [[ "$bound" == "$EXPECTED_COMMIT" ]]
+          # gh release create fails if the version already has a release.
+          # No --clobber, automatic publish, latest promotion, or installation.
+          gh release create "v$RELEASE_VERSION" \
+            "$output/irondots-$RELEASE_VERSION.zip" \
+            "$output/SHA256SUMS" "$output/release-manifest.json" \
+            --repo "$GH_REPO" --target "$EXPECTED_COMMIT" --verify-tag \
+            --title "irondots v$RELEASE_VERSION" \
+            --notes 'Manually requested draft of allowlisted packages. Review files, checksums, provenance, licenses and runtime evidence before publishing. Offline validation does not prove dot installation or live behavior.' \
+            --draft
+          gh release view "v$RELEASE_VERSION" --repo "$GH_REPO" \
+            --json isDraft,targetCommitish,tagName > "$output/provider-release.json"
+          python3 -c 'import json,sys; d=json.load(open(sys.argv[1])); assert d["isDraft"] is True and d["targetCommitish"] == sys.argv[2] and d["tagName"] == sys.argv[3], "Draft readback mismatch"' \
+            "$output/provider-release.json" "$EXPECTED_COMMIT" "v$RELEASE_VERSION"
+          printf '%s\n' 'Draft created and read back. A maintainer must separately review and publish it.'  >> "$GITHUB_STEP_SUMMARY"
+      - name: Remove generated temporary package
+        if: always()
+        run: |
+          output="$RUNNER_TEMP/irondots-release-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          if [[ -d "$output" ]]; then rm -rf -- "$output"; fi

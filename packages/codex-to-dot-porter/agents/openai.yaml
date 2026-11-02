@@ -1,0 +1,14 @@
+interface:
+  display_name: Codex to dot porter
+  short_description: Assess and adapt one Codex skill for dot with evidence
+  default_prompt: Use $codex-to-dot-porter to assess or adapt this source skill for
+    dot.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

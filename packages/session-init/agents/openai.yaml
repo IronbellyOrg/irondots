@@ -1,0 +1,14 @@
+interface:
+  display_name: Session Init
+  short_description: Load session preferences and safe work continuity
+  default_prompt: Use $session-init to initialize this conversation with my approved
+    preferences.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
