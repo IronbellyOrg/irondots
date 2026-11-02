@@ -5,12 +5,12 @@
   "packages": [
     {
       "id": "session-init",
-      "export_version": "1.2.0-public.1",
+      "export_version": "1.2.1-public.1",
       "source_files": [
         {
           "path": "SKILL.md",
-          "source_sha256": "274ce401668da041967b14f97e16adca735e8b2e90b490cfaa4dcbd7f151d40b",
-          "export_sha256": "274ce401668da041967b14f97e16adca735e8b2e90b490cfaa4dcbd7f151d40b",
+          "source_sha256": "1923a1517b3447a0cc95102c5c910150aae7547045169c8a901092b6afa0a957",
+          "export_sha256": "1923a1517b3447a0cc95102c5c910150aae7547045169c8a901092b6afa0a957",
           "changed": false
         },
         {
@@ -27,14 +27,14 @@
         },
         {
           "path": "assets/icon.svg",
-          "source_sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
-          "export_sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+          "source_sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+          "export_sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
           "changed": false
         },
         {
           "path": "assets/session-receipt.md",
-          "source_sha256": "cdeab451233309b2085a50d294309dc70e8c0dba5cb7f52701fcda01ab622e54",
-          "export_sha256": "cdeab451233309b2085a50d294309dc70e8c0dba5cb7f52701fcda01ab622e54",
+          "source_sha256": "f69796f3734d3a88767fa6bc65ba22ebb9f3821559099cdae686d3e7fe5d4241",
+          "export_sha256": "f69796f3734d3a88767fa6bc65ba22ebb9f3821559099cdae686d3e7fe5d4241",
           "changed": false
         },
         {
@@ -63,8 +63,8 @@
         },
         {
           "path": "references/skill-routing-ledger.md",
-          "source_sha256": "40c0f7698a0f63306dae71b982f2ef669667ed88370fb7ef88a9593bf66a2a1f",
-          "export_sha256": "cfeda4aaf59da9799ee3174157a609fa5a3e89ee20a2a5a266f420c66ca448be",
+          "source_sha256": "0851983727b40817134f76cf32b628c8b38fc4d8cf7e1dae1f727d6b7b157200",
+          "export_sha256": "e1cbf590a2f0a6dcf6e5c97fbba4df4eaebfc85c680c5d6fd23d60de49ac6f58",
           "changed": true
         },
         {

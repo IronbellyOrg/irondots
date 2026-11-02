@@ -3,7 +3,7 @@
   "packages": [
     {
       "id": "session-init",
-      "version": "1.2.0-public.1",
+      "version": "1.2.1-public.1",
       "path": "packages/session-init",
       "entrypoint": "SKILL.md",
       "runtimes": [
@@ -19,16 +19,16 @@
       },
       "public_files": {
         "PROVENANCE.md": "0accbc2f531901e5d5a1fed87dff9607664d550476f36dfd9f55ac0be4e7b8ca",
-        "SKILL.md": "274ce401668da041967b14f97e16adca735e8b2e90b490cfaa4dcbd7f151d40b",
+        "SKILL.md": "1923a1517b3447a0cc95102c5c910150aae7547045169c8a901092b6afa0a957",
         "agents/openai.yaml": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
-        "assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+        "assets/icon.svg": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
         "assets/priority-briefing.md": "70ddeb1f614cdfbd1a85e2568b326346ff29c700e86676bf8455bad1a7f0406d",
         "assets/session-primer.md": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
-        "assets/session-receipt.md": "cdeab451233309b2085a50d294309dc70e8c0dba5cb7f52701fcda01ab622e54",
+        "assets/session-receipt.md": "f69796f3734d3a88767fa6bc65ba22ebb9f3821559099cdae686d3e7fe5d4241",
         "references/clickup-routing.md": "3952691d9a8fba0f167d927769bd84820ffefa34fcfa852e893d439a6bb0e0e5",
         "references/priority-briefing.md": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
         "references/session-continuity.md": "6dd9f3d5005e7bf1aa82e7c74ef3fa4893e88bf87ba07634b53d691f4be5b48f",
-        "references/skill-routing-ledger.md": "cfeda4aaf59da9799ee3174157a609fa5a3e89ee20a2a5a266f420c66ca448be",
+        "references/skill-routing-ledger.md": "e1cbf590a2f0a6dcf6e5c97fbba4df4eaebfc85c680c5d6fd23d60de49ac6f58",
         "references/verification-and-authority.md": "69538b3b838d0c5224817b8efb75458e83362ae1a11911f0a05617560e7a8c31",
         "references/voice-waiting.md": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217"
       },
