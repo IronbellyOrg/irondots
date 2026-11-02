@@ -443,5 +443,43 @@
       "export_sha256": "23a3f2617d2b3d44d380fa74df1bfa308e555345279d5f992e975be4685452ca",
       "difference": "Default test path changed from private managed root to package-relative; environment override preserved."
     }
+  ],
+  "offline_examples": [
+    {
+      "id": "ironbrain-context-policy-model",
+      "evidence": "Independent corrected-code review PASS; offline synthetic only, no real-service security or runtime acceptance claim.",
+      "files": [
+        {
+          "path": "examples/ironbrain-context-policy-model/README.md",
+          "source_sha256": "9bfa594d0e14d380f3c27f6b9908350e36ac47ebdff5c1172bc0033c2943b175",
+          "export_sha256": "9bfa594d0e14d380f3c27f6b9908350e36ac47ebdff5c1172bc0033c2943b175",
+          "changed": false
+        },
+        {
+          "path": "examples/ironbrain-context-policy-model/policy_model.py",
+          "source_sha256": "0fd56a5a606977b7b07f7ad8393723e9039ad81849171b08ab2b393577048248",
+          "export_sha256": "0fd56a5a606977b7b07f7ad8393723e9039ad81849171b08ab2b393577048248",
+          "changed": false
+        },
+        {
+          "path": "examples/ironbrain-context-policy-model/test_policy_model.py",
+          "source_sha256": "5f0a04c09708b3af06d534f3c47e85d72a08b05099b5646e54b02ca5702c0647",
+          "export_sha256": "5f0a04c09708b3af06d534f3c47e85d72a08b05099b5646e54b02ca5702c0647",
+          "changed": false
+        },
+        {
+          "path": "examples/ironbrain-context-policy-model/run_tests.py",
+          "source_sha256": "820d8323c180f77495625e3b39e5c556d8baeceff538993b29ec7d95e239db99",
+          "export_sha256": "820d8323c180f77495625e3b39e5c556d8baeceff538993b29ec7d95e239db99",
+          "changed": false
+        },
+        {
+          "path": "examples/ironbrain-context-policy-model/check_mutations.py",
+          "source_sha256": "64988293dcee5a899fa25943ea7cb19597f8f44079c8896769afb4fe5d2c6173",
+          "export_sha256": "64988293dcee5a899fa25943ea7cb19597f8f44079c8896769afb4fe5d2c6173",
+          "changed": false
+        }
+      ]
+    }
   ]
 }

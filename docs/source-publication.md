@@ -34,3 +34,7 @@ The typed task-update readback now explicitly requests both description and depe
 ## Session Init 1.2.0 briefing upgrade
 
 Adds scope-accounted priority briefing, project-grouped written continuity, impact/unblocking-first agenda and one-item-at-a-time delivery. Independent specification and exact candidate reviews passed; ten Markdown resources passed actual native hash readback. Reconciled YAML preserves semantic configuration; system-normalized icon is recorded in this export manifest. Installation/static/native evidence does not prove the parent operational full-report refresh or real next-call functional acceptance: both remain pending. Private report bindings, task IDs, fixtures and worker evidence are excluded.
+
+## Offline Ironbrain context-policy example
+
+The five unchanged reviewed files under `examples/ironbrain-context-policy-model` are an offline synthetic reference model, not a skill, AnythingLLM integration, production ACL system or deployment. Source hashes are in the export manifest. The original independent review found a null-revision Archive approval defect; corrected sources subsequently passed independent review: 18 tests, six missing-gate mutation challenges and eight additional challenges. Private prior failure receipts/designs are not exported. Real-service controls, scale, inference leakage and production/runtime acceptance remain unverified. README describes the model limits; no automatic publication, access grant or ingestion is performed by the model.
