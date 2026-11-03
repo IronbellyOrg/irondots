@@ -17,6 +17,16 @@ The local envelope holds original provenance, source file hashes/paths where app
 
 Maintain a local mapping from each packet claim/source label to its actual source/version/hash and audience decision. Unknown sharing authority, known inaccessible required files or unsupported external-source access block affected send readiness. Authorized named ClickUp source pointers need no native prefetch to prove accessibility: ask AI to retrieve them and report actual access/coverage gaps; never substitute a similarly named resource or claim a local file is accessible remotely. Compress duplicated logistics, not authority, contradictions or acceptance. A shorter packet is not proof of fewer provider calls or lower cost.
 
+## Named ClickUp skill invocation
+
+For a **new authorized invocation** of a named ClickUp `if:` skill, begin the actual recipient-facing prompt with its exact verified literal command on its own first line, before headings or explanation. The user confirmed `/if:spec-feature` successfully invoked Feature Spec on 2026-11-03. Use that literal line, followed by the scoped request, accessible source pointers, constraints and result requirements. Prose such as “use the feature spec skill” is not a substitute. This is distinct from dot's `/clickup` shorthand and does not register a command.
+
+Verify other commands from actual skill documentation, the target interface or explicit user confirmation; never infer or invent a command name from a skill title. Record command evidence locally, outside the recipient packet. If a required command is unknown, prepare the body but do not mark the invocation ready. Ordinary batches and quoted or historical mentions do not acquire a command prefix.
+
+Use [the local formatter](../scripts/skill_prompt.py) `render(body, command="/if:spec-feature", command_evidence="actual evidence reference")` before freezing a new packet; it preserves the body unchanged and rejects malformed, unevidenced or duplicate prefixes. The coordinator must verify the evidence and allowed effects: the helper is not an authority or capability check. Executor-less callers require a coordinator-formatted packet and its evidence. Inspect the final first line, then retain those exact bytes through the existing reservation/send checks. Do not re-render or resend a pending operation merely to correct its prefix: reconcile the existing root and receipts first and obtain any required retry authority. The formatter rejects `resuming=True` to keep this boundary explicit.
+
+This formatting does not alter the contract, audience, sharing, execution gates, cumulative budget, local continuity or result verification. A user-reported successful invocation is not proof the requested work completed, nor proof that a missing prefix caused a prior provider failure.
+
 ## Use cases
 
 **Multi-source synthesis/dependency query:** bounded project/time/source set, exact question, return cited facts versus inferred relationships. Spot checks establish only their disclosed coverage.

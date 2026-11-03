@@ -1,5 +1,7 @@
 # Recipient-facing Brain request
 
+Preparation note (not part of the transmitted packet): for a new authorized named `if:` skill invocation, format the completed body using the verified literal command as the first line, before any title or contract. Follow preparation-reply.md and skill_prompt.py; do not send this note or a command placeholder. Ordinary batches have no invocation prefix. Resume existing requests from their retained packets rather than generating duplicate invocations.
+
 This is the remote packet, separate from the full local v1 envelope and checkpoint. Keep readiness/approval/quota bookkeeping local. Do not send until the coordinator verifies actual destination, allowed data audience, current authority and quota eligibility.
 
 Contract: dot-authoring-delegation/v1

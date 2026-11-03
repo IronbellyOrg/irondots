@@ -2,7 +2,7 @@
 
 Canonical repository: https://github.com/IronbellyOrg/irondots
 
-Six source packages are included: ClickUp 1.3.1 public export, the brownfield-aware specification generator, adaptive research, the Codex-to-dot porter, task-list 1.0.0, and Session Init 1.2.0. Export versions for packages without an explicit native semantic version are repository identifiers, not invented native releases.
+Seven source packages are included: ClickUp 1.3.2 public export, the brownfield-aware specification generator, adaptive research, the Codex-to-dot porter, task-list 1.0.0, Session Init 1.2.1, and create-level-design. Export versions for packages without an explicit native semantic version are repository identifiers, not invented native releases.
 
 ## Intentional export differences
 
@@ -38,3 +38,7 @@ Adds scope-accounted priority briefing, project-grouped written continuity, impa
 ## Offline Ironbrain context-policy example
 
 The five unchanged reviewed files under `examples/ironbrain-context-policy-model` are an offline synthetic reference model, not a skill, AnythingLLM integration, production ACL system or deployment. Source hashes are in the export manifest. The original independent review found a null-revision Archive approval defect; corrected sources subsequently passed independent review: 18 tests, six missing-gate mutation challenges and eight additional challenges. Private prior failure receipts/designs are not exported. Real-service controls, scale, inference leakage and production/runtime acceptance remain unverified. README describes the model limits; no automatic publication, access grant or ingestion is performed by the model.
+
+## 2026-11-03 source synchronization
+
+All seven installed user-authored skills were inventoried against the prior export. Unchanged source files retain their prior sanitized exports. ClickUp 1.3.2 adds verified literal command-first formatting and focused tests; the system-normalized icon is refreshed. Create-level-design includes its template, research basis, comparison rubric, static validator and synthetic tests. Game-specific names and private runtime resource locators are sanitized. Private source bundles, benchmark outputs, art, task identities, ledgers and receipts are excluded. The new package version is a repository export identifier, not a claim of an official native release. Existing release approval, runtime and production acceptance gates remain unchanged.

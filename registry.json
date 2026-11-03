@@ -62,7 +62,7 @@
     },
     {
       "id": "clickup",
-      "version": "1.3.1-public.1",
+      "version": "1.3.2-public.1",
       "path": "packages/clickup",
       "entrypoint": "SKILL.md",
       "runtimes": [
@@ -76,11 +76,11 @@
       },
       "public_files": {
         "PROVENANCE.md": "24101e63b40b86c17e74f8d0b4693298962ee9810cea88639696fdd92c58a2ec",
-        "SKILL.md": "ac2d6d72fbaf120977e4b5d33dc85d96f9ff2113d65a6cc0e9276547c68e003d",
+        "SKILL.md": "f4c206af112e71e04e4911d0a62f887f3e8ce05ecc4197c2ae95a1ad24778ed0",
         "agents/openai.yaml": "1664c23681d086485c2fc7db38530e6a812e1dba226b77268785187bd459e85a",
         "assets/batch-template.json": "554fb8dd617c26bc2628cf8d1f3343dc2b8c6d3d0632b27e6db7afb615fc24ed",
-        "assets/brain-brief.md": "a412a0df9d09582e811db13803dcbbaa5c5bae3650774158e7f3e2e9aeeff305",
-        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "assets/brain-brief.md": "1a6a974a96577d96a4fc8f4d52895bbf9cb49f826220eec7b4443641ab88a8e8",
+        "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
         "assets/reporting-request.md": "59e78838b34b709f7e0ccc7f36d06b6bdbdb55f9608a946d3914bf8a55e73971",
         "assets/reporting-result.md": "43dbc126673350a5d05bcb0931553fd22e903bb9b9f021903f848e8d820c1629",
         "references/authoring-delegation-v1.md": "8652115ff8f46e8d02b6205a52474ea859322a30abeb86312a07cd4e2d92b411",
@@ -91,7 +91,7 @@
         "references/brain-routing-continuity.md": "9bb279b1fe8cb76dfb413dca8656574aba4454eeb83bc13ddaaea3578f454eee",
         "references/execution-gates.md": "d845223c5b3dad40600d8299b6e22b01a9fb9c5a1cad33ae1cb85d2e62f1218b",
         "references/handoff-reconciliation.md": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
-        "references/preparation-reply.md": "e80208571f0eaa2571a591c0188d85e3612886a2bf8cc3ff467e4d8aee45595e",
+        "references/preparation-reply.md": "0fb03a280871c8cd3ee197f60aa70ebbcb50d0a9ceb51c40a7d0de6d21ecd2c7",
         "references/reporting-protocol-v1.md": "e9a243b9be1ff622dbacd4479f5117a6acfa183572b0c5cf1abbdd940e978686",
         "references/result-normalization.md": "d12167ffdbc1cfc3d98e7b0a40b6fcb7a018c7192b89172e92716aea8e9d8ef8",
         "references/task-list-progress-v0.1.md": "a67847593a669aca6e31b268033abee385a2816752a5555305acf9933c3ea984",
@@ -100,7 +100,9 @@
         "scripts/batch_stage.py": "ca155aaf416c73442aeeb7fdb09b703b47ce8d00eed5e64c8c81db914a333dc5",
         "scripts/brain_state.py": "0d86d82c8bc9033f7158cc8ef48385911944d48137888c6b2b1c91769bf9b5d6",
         "scripts/native_adapter.py": "a5b773971b98c8d47da663ba6427040d813a24f4b694fbcbfe9afcae39ec8682",
+        "scripts/skill_prompt.py": "b73142364f48a4e2735c07c60a304c896f3b12f89ac62ab7867c21e1e30507f8",
         "scripts/task_progress.py": "bced3ef66ceb3a90d7926f4ffea98b32eabee5310c98c583f50e18a3b99ae487",
+        "tests/test_skill_prompt.py": "46dd477e1a60e2d13edd097d333d5f206faf16838ac7a9ab88fd85a87d810411",
         "tests/test_task_progress.py": "920baf09b8a2075f8c3eb4251728e38ec66cab84979e90150f61d818811ea67b"
       },
       "publication_approved": false
@@ -187,6 +189,36 @@
         "assets/icon.svg": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
         "assets/port-result.md": "9ac1beb055aaed377f694557bfb9f4e08b4b7122f41fd8df8e1b753a59257077",
         "references/porting-protocol.md": "70b2ffbd7c70ddd1d2d2c0b5ab9a20683a6df4d2a9eb71850fb6739d8acd4a52"
+      },
+      "publication_approved": false
+    },
+    {
+      "id": "create-level-design",
+      "version": "1.0.0-public.1",
+      "path": "packages/create-level-design",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [
+        "clickup",
+        "adaptive-research"
+      ],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "No open-source license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "PROVENANCE.md": "a3d52157baabf5077eb1cad8e496c2cb9ab112324c276970c90c49eb3fe42780",
+        "SKILL.md": "fb06efa59d5304d162acf263c35831e45ee1892310a08634ad12d50d7ae3de93",
+        "agents/openai.yaml": "77ad2d41f106248d7294081e1902d7e50db5e0588e32ad9ce31898b87cf45e8f",
+        "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "assets/level-design-template.md": "1bb328a613d1c6d909cb67f2fc6b93e162c27e7f5907b178df39aa58536a15b5",
+        "references/comparison.md": "aad5a1b333b9bba0030ab7b6277088bcf322098e49e6af0ecebe2ae35b6f9970",
+        "references/research-basis.md": "cf2bd770415c07a61104c58d33032a425ba1e87d61f84e4e387e0ac41808f508",
+        "scripts/test_validator.py": "bab92b1abd089db856db2d9a15ab1504c84b512d528e43018a7f642b4e004260",
+        "scripts/validate_ldd.py": "83064150af1530121dc0f19c25b2bd6a99fdd65d238d369414da8377eac9d5e4"
       },
       "publication_approved": false
     }

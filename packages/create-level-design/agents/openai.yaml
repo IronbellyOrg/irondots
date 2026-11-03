@@ -1,0 +1,14 @@
+interface:
+  display_name: Create Level Design
+  short_description: Create evidence-backed level design documents
+  default_prompt: Create a level design document from the approved design sources
+    and template.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-11-02",
+  "export_date": "2026-11-03",
   "repository": "https://github.com/IronbellyOrg/irondots",
   "notice": "Sanitized source export, not exact installed bytes or runtime certification. Export versions without known native semantic version are repository-only identifiers. No release authorization.",
   "packages": [
@@ -113,12 +113,12 @@
     },
     {
       "id": "clickup",
-      "export_version": "1.3.1-public.1",
+      "export_version": "1.3.2-public.1",
       "source_files": [
         {
           "path": "SKILL.md",
-          "source_sha256": "ac2d6d72fbaf120977e4b5d33dc85d96f9ff2113d65a6cc0e9276547c68e003d",
-          "export_sha256": "ac2d6d72fbaf120977e4b5d33dc85d96f9ff2113d65a6cc0e9276547c68e003d",
+          "source_sha256": "f4c206af112e71e04e4911d0a62f887f3e8ce05ecc4197c2ae95a1ad24778ed0",
+          "export_sha256": "f4c206af112e71e04e4911d0a62f887f3e8ce05ecc4197c2ae95a1ad24778ed0",
           "changed": false
         },
         {
@@ -135,14 +135,14 @@
         },
         {
           "path": "assets/brain-brief.md",
-          "source_sha256": "a412a0df9d09582e811db13803dcbbaa5c5bae3650774158e7f3e2e9aeeff305",
-          "export_sha256": "a412a0df9d09582e811db13803dcbbaa5c5bae3650774158e7f3e2e9aeeff305",
+          "source_sha256": "1a6a974a96577d96a4fc8f4d52895bbf9cb49f826220eec7b4443641ab88a8e8",
+          "export_sha256": "1a6a974a96577d96a4fc8f4d52895bbf9cb49f826220eec7b4443641ab88a8e8",
           "changed": false
         },
         {
           "path": "assets/icon.svg",
-          "source_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
-          "export_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "source_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "export_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
           "changed": false
         },
         {
@@ -207,8 +207,8 @@
         },
         {
           "path": "references/preparation-reply.md",
-          "source_sha256": "e80208571f0eaa2571a591c0188d85e3612886a2bf8cc3ff467e4d8aee45595e",
-          "export_sha256": "e80208571f0eaa2571a591c0188d85e3612886a2bf8cc3ff467e4d8aee45595e",
+          "source_sha256": "0fb03a280871c8cd3ee197f60aa70ebbcb50d0a9ceb51c40a7d0de6d21ecd2c7",
+          "export_sha256": "0fb03a280871c8cd3ee197f60aa70ebbcb50d0a9ceb51c40a7d0de6d21ecd2c7",
           "changed": false
         },
         {
@@ -260,9 +260,21 @@
           "changed": false
         },
         {
+          "path": "scripts/skill_prompt.py",
+          "source_sha256": "b73142364f48a4e2735c07c60a304c896f3b12f89ac62ab7867c21e1e30507f8",
+          "export_sha256": "b73142364f48a4e2735c07c60a304c896f3b12f89ac62ab7867c21e1e30507f8",
+          "changed": false
+        },
+        {
           "path": "scripts/task_progress.py",
           "source_sha256": "bced3ef66ceb3a90d7926f4ffea98b32eabee5310c98c583f50e18a3b99ae487",
           "export_sha256": "bced3ef66ceb3a90d7926f4ffea98b32eabee5310c98c583f50e18a3b99ae487",
+          "changed": false
+        },
+        {
+          "path": "tests/test_skill_prompt.py",
+          "source_sha256": "46dd477e1a60e2d13edd097d333d5f206faf16838ac7a9ab88fd85a87d810411",
+          "export_sha256": "46dd477e1a60e2d13edd097d333d5f206faf16838ac7a9ab88fd85a87d810411",
           "changed": false
         },
         {
@@ -431,6 +443,60 @@
           "path": "references/porting-protocol.md",
           "source_sha256": "70b2ffbd7c70ddd1d2d2c0b5ab9a20683a6df4d2a9eb71850fb6739d8acd4a52",
           "export_sha256": "70b2ffbd7c70ddd1d2d2c0b5ab9a20683a6df4d2a9eb71850fb6739d8acd4a52",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "id": "create-level-design",
+      "export_version": "1.0.0-public.1",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "3aad57bf4675c86114732e1a991d8730f8c031375ad2d91f3fb0e41cf2ce5e2a",
+          "export_sha256": "fb06efa59d5304d162acf263c35831e45ee1892310a08634ad12d50d7ae3de93",
+          "changed": true
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "77ad2d41f106248d7294081e1902d7e50db5e0588e32ad9ce31898b87cf45e8f",
+          "export_sha256": "77ad2d41f106248d7294081e1902d7e50db5e0588e32ad9ce31898b87cf45e8f",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "export_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "changed": false
+        },
+        {
+          "path": "assets/level-design-template.md",
+          "source_sha256": "431ddca3c41b43bed1d30738e1c89ba9c13851ed37ad1ad679758384754fb6f5",
+          "export_sha256": "1bb328a613d1c6d909cb67f2fc6b93e162c27e7f5907b178df39aa58536a15b5",
+          "changed": true
+        },
+        {
+          "path": "references/comparison.md",
+          "source_sha256": "aad5a1b333b9bba0030ab7b6277088bcf322098e49e6af0ecebe2ae35b6f9970",
+          "export_sha256": "aad5a1b333b9bba0030ab7b6277088bcf322098e49e6af0ecebe2ae35b6f9970",
+          "changed": false
+        },
+        {
+          "path": "references/research-basis.md",
+          "source_sha256": "2e364787a46e0ea5be592a1ae2d33a4e9f710da4ec3b3e82eba7c3bdff594cdc",
+          "export_sha256": "cf2bd770415c07a61104c58d33032a425ba1e87d61f84e4e387e0ac41808f508",
+          "changed": true
+        },
+        {
+          "path": "scripts/test_validator.py",
+          "source_sha256": "bab92b1abd089db856db2d9a15ab1504c84b512d528e43018a7f642b4e004260",
+          "export_sha256": "bab92b1abd089db856db2d9a15ab1504c84b512d528e43018a7f642b4e004260",
+          "changed": false
+        },
+        {
+          "path": "scripts/validate_ldd.py",
+          "source_sha256": "83064150af1530121dc0f19c25b2bd6a99fdd65d238d369414da8377eac9d5e4",
+          "export_sha256": "83064150af1530121dc0f19c25b2bd6a99fdd65d238d369414da8377eac9d5e4",
           "changed": false
         }
       ]
