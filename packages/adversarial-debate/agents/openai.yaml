@@ -1,0 +1,14 @@
+interface:
+  display_name: Adversarial Debate
+  short_description: Compare proposals with evidence and independent challenge
+  default_prompt: Use $adversarial-debate to compare these proposals and recommend
+    the strongest supported approach.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

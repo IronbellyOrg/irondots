@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-11-03",
+  "export_date": "2026-11-04",
   "repository": "https://github.com/IronbellyOrg/irondots",
   "notice": "Sanitized source export, not exact installed bytes or runtime certification. Export versions without known native semantic version are repository-only identifiers. No release authorization.",
   "packages": [
@@ -500,6 +500,114 @@
           "changed": false
         }
       ]
+    },
+    {
+      "id": "adversarial-debate",
+      "export_version": "1.0.0-public.1",
+      "source_files": [
+        {
+          "path": "NOTICE",
+          "source_sha256": "ad7d5a6c34e593990af934dec3023f6152092904e5988a4ab23a4477637ee4e6",
+          "export_sha256": "ad7d5a6c34e593990af934dec3023f6152092904e5988a4ab23a4477637ee4e6",
+          "changed": false
+        },
+        {
+          "path": "PROVENANCE.md",
+          "source_sha256": "fde585e3f5be9e1b8f9e61a39d6dca5cf052b9c08d406611d94b99d3a3c7f5e4",
+          "export_sha256": "fde585e3f5be9e1b8f9e61a39d6dca5cf052b9c08d406611d94b99d3a3c7f5e4",
+          "changed": false
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "6b2c45a96af04879ed18c574fe82570a185f4360105c72cb04d8bef2b2b95d8a",
+          "export_sha256": "6b2c45a96af04879ed18c574fe82570a185f4360105c72cb04d8bef2b2b95d8a",
+          "changed": false
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "0e5c794426989fa119d25c66413148aa30ad77099efbdeda0a252a3236b1e2de",
+          "export_sha256": "0e5c794426989fa119d25c66413148aa30ad77099efbdeda0a252a3236b1e2de",
+          "changed": false
+        },
+        {
+          "path": "assets/acceptance-cases.md",
+          "source_sha256": "56e6553654a8ba5ec25f1468dffb2b53617859a6becabcd82803b77c88589da3",
+          "export_sha256": "56e6553654a8ba5ec25f1468dffb2b53617859a6becabcd82803b77c88589da3",
+          "changed": false
+        },
+        {
+          "path": "assets/criteria.md",
+          "source_sha256": "58c17c9f348fec5c3e36cb962a94ffb04e5088b47aa8684ac120014e3355741b",
+          "export_sha256": "58c17c9f348fec5c3e36cb962a94ffb04e5088b47aa8684ac120014e3355741b",
+          "changed": false
+        },
+        {
+          "path": "assets/debate-request.md",
+          "source_sha256": "154a64c57d221e3c313f1e5c0dcbfda3d439051e9d476f5ca852be55c4cb6413",
+          "export_sha256": "154a64c57d221e3c313f1e5c0dcbfda3d439051e9d476f5ca852be55c4cb6413",
+          "changed": false
+        },
+        {
+          "path": "assets/debate-result.md",
+          "source_sha256": "a15365146a0e2aeb428cdbc36fbec10e7904624235cf8a4e1de2da6619b67b69",
+          "export_sha256": "a15365146a0e2aeb428cdbc36fbec10e7904624235cf8a4e1de2da6619b67b69",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "export_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "changed": false
+        },
+        {
+          "path": "references/continuity-and-reporting.md",
+          "source_sha256": "df3978e9bcebf3cb16d0b2a518bf76ede761f79c51e7b1a5b8854b3e3f2c8e55",
+          "export_sha256": "df3978e9bcebf3cb16d0b2a518bf76ede761f79c51e7b1a5b8854b3e3f2c8e55",
+          "changed": false
+        },
+        {
+          "path": "references/debate.md",
+          "source_sha256": "2f3faab68843112b9524fb7d49a3cc3813dc9b0357d81d1f26d66ffd529fe8c2",
+          "export_sha256": "2f3faab68843112b9524fb7d49a3cc3813dc9b0357d81d1f26d66ffd529fe8c2",
+          "changed": false
+        },
+        {
+          "path": "references/evidence-and-scoring.md",
+          "source_sha256": "4638346f365b84b0a6fcf9d569478974f231f5264851964852a9cd7cf258c4f9",
+          "export_sha256": "4638346f365b84b0a6fcf9d569478974f231f5264851964852a9cd7cf258c4f9",
+          "changed": false
+        },
+        {
+          "path": "references/intake.md",
+          "source_sha256": "0da748047fd6e6d87eb5bdbc90ba66f59dcf102f185853b09fe040b2ae60f014",
+          "export_sha256": "0da748047fd6e6d87eb5bdbc90ba66f59dcf102f185853b09fe040b2ae60f014",
+          "changed": false
+        },
+        {
+          "path": "references/invariant-probe.md",
+          "source_sha256": "246dff2fca1f7cfb271302d02211b636ace1409502e9d207c29328624fd8c747",
+          "export_sha256": "246dff2fca1f7cfb271302d02211b636ace1409502e9d207c29328624fd8c747",
+          "changed": false
+        },
+        {
+          "path": "references/synthesis.md",
+          "source_sha256": "847f9d227e99006d8647591fa4c9cf894e01b50891418e9846dd69560de4e78c",
+          "export_sha256": "847f9d227e99006d8647591fa4c9cf894e01b50891418e9846dd69560de4e78c",
+          "changed": false
+        },
+        {
+          "path": "scripts/validate_record.py",
+          "source_sha256": "020106986f7196bed8daa315d2bce61625406986fb4cdafaa277d3871395120d",
+          "export_sha256": "020106986f7196bed8daa315d2bce61625406986fb4cdafaa277d3871395120d",
+          "changed": false
+        },
+        {
+          "path": "tests/test_validate_record.py",
+          "source_sha256": "2d59abab908abf0ee3b755da70e477d2621d81667bac9a5789b387694119b823",
+          "export_sha256": "2d59abab908abf0ee3b755da70e477d2621d81667bac9a5789b387694119b823",
+          "changed": false
+        }
+      ]
     }
   ],
   "additional_export_files": [
@@ -508,6 +616,12 @@
       "source_sha256": "15e6a217f942045a6b940ce0930d89fb106a7bacbeaf4783507978d1e321e34c",
       "export_sha256": "23a3f2617d2b3d44d380fa74df1bfa308e555345279d5f992e975be4685452ca",
       "difference": "Default test path changed from private managed root to package-relative; environment override preserved."
+    },
+    {
+      "path": "tests/test_adversarial_debate.py",
+      "source_sha256": "3bffc8ada00b4e8e43054a15fc94f022b98e76ee33057b028fa77a63475748b4",
+      "export_sha256": "3bffc8ada00b4e8e43054a15fc94f022b98e76ee33057b028fa77a63475748b4",
+      "difference": "Repository test adapter for the shipped synthetic result-validator suite; no private inputs."
     }
   ],
   "offline_examples": [

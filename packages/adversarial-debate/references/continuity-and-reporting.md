@@ -1,0 +1,17 @@
+# Continuity and shared reporting
+
+Load for finalization/resume. Inputs: actual request, source/criteria versions, results and genuine receipts. Output: truthful checkpoint and result. The parent/coordinator is the single publisher; no initial task or ongoing reporting writes.
+
+When authorized, retain request/run identity, source revisions, issue/criterion IDs, actual dispatch results, decisions, candidate hashes, completed/uncertain effects and remaining gates under `output/<run-id>/`. Do not create files solely for ceremony when a conversational handoff suffices. Resume only after checking current authority, cancellation, sources, criteria and required roles. Invalidate affected judgments and descendants, preserve verified unrelated work, and never replay uncertain external effects. A checksum alone does not prove permission or factual freshness.
+
+## Authoritative reporting dependency
+
+Use **dot-reporting/1.0**, owned by the registered `clickup` skill. Discover/read that entrypoint, then its current `references/reporting-protocol-v1.md`, `assets/reporting-request.md` (dot-reporting-request/1.0) and `assets/reporting-result.md` (dot-reporting-result/1.0) through supported skill/resource tools with returned locators. Do not copy an alternate protocol or invent a send capability.
+
+Discover dependencies by their registered names; do not reuse an author’s account-specific locator. Actual discovery/read in the consuming runtime is required. If resource access or version validation fails, return `reporting: null` plus the typed reporting_gap from the result contract. Keep debate state independent and affected reporting pending/blocked; do not fabricate a protocol-conformant receipt from an unread resource.
+
+Define only six scoped parameters: destination (existing conversation/canonical record and audience), target (verified record/run), payload (final recommendation, necessary evidence/dissent and authorized artifacts), acceptance (effect-specific observable checks), privacy (recipient-accessible content and exclusions), access (actual authority, sole writer, verified transport and resource-read route).
+
+Preserve the exact fixed sequence: local ledger → finalized evidence/payload → one coordinated final batch → bounded authoritative readback → durable receipt. Use the ClickUp skill's preparation/normalization route and exact templates. No initial ClickUp task or ongoing progress writes. A subordinate return or purely conversational answer uses the protocol-defined justified no-op: proportional stages 1–2, final batch no-op, readback not applicable, parent handoff/receipt. An intended publication blocked by access is pending/blocked, not successful no-op.
+
+If ClickUp publication is actually authorized, reconcile the current ClickUp AI reporting/execution profile before sending; do not reinterpret the legacy reporting resource as authority for native ClickUp domain writes. Publication failure never replays completed debate. Partial receipts remain partial. Installation, resource loading, content validation, fresh-session evidence and publication are separate states.

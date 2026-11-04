@@ -221,6 +221,44 @@
         "scripts/validate_ldd.py": "83064150af1530121dc0f19c25b2bd6a99fdd65d238d369414da8377eac9d5e4"
       },
       "publication_approved": false
+    },
+    {
+      "id": "adversarial-debate",
+      "version": "1.0.0-public.1",
+      "path": "packages/adversarial-debate",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [
+        "clickup",
+        "adaptive-research"
+      ],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/IronClaude/tree/af74de76f48cf380878865fefa644662af0ca8f1",
+        "license": "Upstream MIT notice retained; no additional open-source license grant asserted for new material; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "NOTICE": "ad7d5a6c34e593990af934dec3023f6152092904e5988a4ab23a4477637ee4e6",
+        "PROVENANCE.md": "fde585e3f5be9e1b8f9e61a39d6dca5cf052b9c08d406611d94b99d3a3c7f5e4",
+        "SKILL.md": "6b2c45a96af04879ed18c574fe82570a185f4360105c72cb04d8bef2b2b95d8a",
+        "agents/openai.yaml": "0e5c794426989fa119d25c66413148aa30ad77099efbdeda0a252a3236b1e2de",
+        "assets/acceptance-cases.md": "56e6553654a8ba5ec25f1468dffb2b53617859a6becabcd82803b77c88589da3",
+        "assets/criteria.md": "58c17c9f348fec5c3e36cb962a94ffb04e5088b47aa8684ac120014e3355741b",
+        "assets/debate-request.md": "154a64c57d221e3c313f1e5c0dcbfda3d439051e9d476f5ca852be55c4cb6413",
+        "assets/debate-result.md": "a15365146a0e2aeb428cdbc36fbec10e7904624235cf8a4e1de2da6619b67b69",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "references/continuity-and-reporting.md": "df3978e9bcebf3cb16d0b2a518bf76ede761f79c51e7b1a5b8854b3e3f2c8e55",
+        "references/debate.md": "2f3faab68843112b9524fb7d49a3cc3813dc9b0357d81d1f26d66ffd529fe8c2",
+        "references/evidence-and-scoring.md": "4638346f365b84b0a6fcf9d569478974f231f5264851964852a9cd7cf258c4f9",
+        "references/intake.md": "0da748047fd6e6d87eb5bdbc90ba66f59dcf102f185853b09fe040b2ae60f014",
+        "references/invariant-probe.md": "246dff2fca1f7cfb271302d02211b636ace1409502e9d207c29328624fd8c747",
+        "references/synthesis.md": "847f9d227e99006d8647591fa4c9cf894e01b50891418e9846dd69560de4e78c",
+        "scripts/validate_record.py": "020106986f7196bed8daa315d2bce61625406986fb4cdafaa277d3871395120d",
+        "tests/test_validate_record.py": "2d59abab908abf0ee3b755da70e477d2621d81667bac9a5789b387694119b823"
+      },
+      "publication_approved": false
     }
   ]
 }

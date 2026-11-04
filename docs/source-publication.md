@@ -2,7 +2,7 @@
 
 Canonical repository: https://github.com/IronbellyOrg/irondots
 
-Seven source packages are included: ClickUp 1.3.2 public export, the brownfield-aware specification generator, adaptive research, the Codex-to-dot porter, task-list 1.0.0, Session Init 1.2.1, and create-level-design. Export versions for packages without an explicit native semantic version are repository identifiers, not invented native releases.
+The initial export included seven source packages: ClickUp 1.3.2 public export, the brownfield-aware specification generator, adaptive research, the Codex-to-dot porter, task-list 1.0.0, Session Init 1.2.1, and create-level-design. Export versions for packages without an explicit native semantic version are repository identifiers, not invented native releases.
 
 ## Intentional export differences
 
@@ -42,3 +42,16 @@ The five unchanged reviewed files under `examples/ironbrain-context-policy-model
 ## 2026-11-03 source synchronization
 
 All seven installed user-authored skills were inventoried against the prior export. Unchanged source files retain their prior sanitized exports. ClickUp 1.3.2 adds verified literal command-first formatting and focused tests; the system-normalized icon is refreshed. Create-level-design includes its template, research basis, comparison rubric, static validator and synthetic tests. Game-specific names and private runtime resource locators are sanitized. Private source bundles, benchmark outputs, art, task identities, ledgers and receipts are excluded. The new package version is a repository export identifier, not a claim of an official native release. Existing release approval, runtime and production acceptance gates remain unchanged.
+
+
+## 2026-11-04 adversarial-debate source addition
+
+Adds adversarial-debate 1.0.0, a native evidence-backed comparison workflow derived from IronClaude's pinned `sc:adversarial` sources. It uses bounded independent advocacy, an independent invariant probe, critical evidence gates, explicit dissent, and optional requested draft synthesis. The upstream MIT notice is retained. New-material distribution rights remain a maintainer decision; release approval remains false.
+
+All 17 exported package files match the reconciled installed package bytes. Private requests, role transcripts, review fixtures, receipts, task identities and source corpora are excluded. Dependencies are discovered by registered name at runtime; this source export neither installs them nor proves provider access.
+
+Validation: 27 package structural/CLI tests and 26 registry tests pass through the normal repository test command (53 total). Independent implementation review found one missing required-field check; the narrow correction and regressions passed re-review with no remaining findings in that bounded review. Registry validation passes for eight packages.
+
+Fresh registered instruction/contract loading and one closed-evidence design comparison were verified with two real advocates, a rebuttal round and a fresh independent invariant reviewer. Both flawed alternatives remained ineligible despite advocate agreement, and an embedded publication instruction caused no external action. The initial run exposed ambiguous result field shapes; the clarified contract loaded in a new context, its losslessly normalized result passed the installed validator, and the initial failure evidence was retained privately. Existing consumers can retain older resource snapshots.
+
+The registered resource reader did not expose the Python validator file. Consumers must use the documented labeled manual fallback when script execution is unavailable; the installed local validator was checked separately. These observations do not certify all runtimes, live provider publication, generated alternatives, synthesis, every failure path, or production effectiveness. No merge, release, workflow dispatch, or deployment is part of this source addition.
