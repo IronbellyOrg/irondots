@@ -1,0 +1,13 @@
+interface:
+  display_name: Task Lists
+  short_description: Keep simple plans current, verified and resumable
+  default_prompt: Use $task-list to resume this plan and save verified progress.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

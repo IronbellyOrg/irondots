@@ -1,0 +1,14 @@
+interface:
+  display_name: Dot Spec Generator
+  short_description: Create evidence-backed specifications and PRDs
+  default_prompt: Use $dot-spec-generator to turn this request into a proportionate,
+    evidence-backed specification.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
