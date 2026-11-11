@@ -1,22 +1,28 @@
 {
-  "export_date": "2026-11-03",
+  "export_date": "2026-11-11",
   "repository": "https://github.com/IronbellyOrg/irondots",
   "notice": "Sanitized source export, not exact installed bytes or runtime certification. Export versions without known native semantic version are repository-only identifiers. No release authorization.",
   "packages": [
     {
       "id": "session-init",
-      "export_version": "1.2.1-public.1",
+      "export_version": "1.2.3-public.1",
       "source_files": [
         {
           "path": "SKILL.md",
-          "source_sha256": "1923a1517b3447a0cc95102c5c910150aae7547045169c8a901092b6afa0a957",
-          "export_sha256": "1923a1517b3447a0cc95102c5c910150aae7547045169c8a901092b6afa0a957",
+          "source_sha256": "2e960fdca1ca546329d61bb29878877423dab68daacebf04e5dc016059ddf7ff",
+          "export_sha256": "6963088518b90026db3792e6641f3f59b8f003bd9f1176b9ad74dd8bf172b102",
+          "changed": true
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
+          "export_sha256": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
           "changed": false
         },
         {
-          "path": "assets/session-primer.md",
-          "source_sha256": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
-          "export_sha256": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
+          "path": "assets/icon.svg",
+          "source_sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+          "export_sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
           "changed": false
         },
         {
@@ -26,28 +32,40 @@
           "changed": false
         },
         {
-          "path": "assets/icon.svg",
-          "source_sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
-          "export_sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+          "path": "assets/session-primer.md",
+          "source_sha256": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
+          "export_sha256": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
           "changed": false
         },
         {
           "path": "assets/session-receipt.md",
-          "source_sha256": "f69796f3734d3a88767fa6bc65ba22ebb9f3821559099cdae686d3e7fe5d4241",
-          "export_sha256": "f69796f3734d3a88767fa6bc65ba22ebb9f3821559099cdae686d3e7fe5d4241",
+          "source_sha256": "52430d54e94abea02c80be6ce8eeaeb3ce17b5b582ccb518daf751b7079198ab",
+          "export_sha256": "52430d54e94abea02c80be6ce8eeaeb3ce17b5b582ccb518daf751b7079198ab",
           "changed": false
         },
         {
-          "path": "agents/openai.yaml",
-          "source_sha256": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
-          "export_sha256": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
-          "changed": false
+          "path": "references/clickup-routing.md",
+          "source_sha256": "f5b63c0561c74d811fbd8905d7c483ede32f2b5a4c00acee63cbbcf83aae4af2",
+          "export_sha256": "1cf8cac188c1e24dd10cc4b6c87fcf6bd7d382c68395214c18a18c1899dc7f46",
+          "changed": true
         },
         {
-          "path": "references/voice-waiting.md",
-          "source_sha256": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
-          "export_sha256": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
-          "changed": false
+          "path": "references/priority-briefing.md",
+          "source_sha256": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
+          "export_sha256": "e13f3e712515990be94064462c61ea3da1277d70f8b2abc8475183735580775d",
+          "changed": true
+        },
+        {
+          "path": "references/session-continuity.md",
+          "source_sha256": "5689a9fe08ed58b83fc83f2e5f3a14c970ab4147e38f2e79658dcdbc4acefa96",
+          "export_sha256": "570015dd85dd0143f2c604aa7527588050dfe8ef34cf656a990aaff98eeb7608",
+          "changed": true
+        },
+        {
+          "path": "references/skill-routing-ledger.md",
+          "source_sha256": "a10a84379bc301d5ca52fe4ea104189d0e7670caab15857685b7cde8d955b019",
+          "export_sha256": "915e33e5ec5e338c1efe442d21997480cda7ceafd3ef17dd54a1b93a0f444647",
+          "changed": true
         },
         {
           "path": "references/verification-and-authority.md",
@@ -56,28 +74,17 @@
           "changed": false
         },
         {
-          "path": "references/clickup-routing.md",
-          "source_sha256": "f5b63c0561c74d811fbd8905d7c483ede32f2b5a4c00acee63cbbcf83aae4af2",
-          "export_sha256": "3952691d9a8fba0f167d927769bd84820ffefa34fcfa852e893d439a6bb0e0e5",
-          "changed": true
-        },
-        {
-          "path": "references/skill-routing-ledger.md",
-          "source_sha256": "0851983727b40817134f76cf32b628c8b38fc4d8cf7e1dae1f727d6b7b157200",
-          "export_sha256": "e1cbf590a2f0a6dcf6e5c97fbba4df4eaebfc85c680c5d6fd23d60de49ac6f58",
-          "changed": true
-        },
-        {
-          "path": "references/priority-briefing.md",
-          "source_sha256": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
-          "export_sha256": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
+          "path": "references/voice-waiting.md",
+          "source_sha256": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
+          "export_sha256": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
           "changed": false
-        },
+        }
+      ],
+      "public_only_files": [
         {
-          "path": "references/session-continuity.md",
-          "source_sha256": "6dd9f3d5005e7bf1aa82e7c74ef3fa4893e88bf87ba07634b53d691f4be5b48f",
-          "export_sha256": "6dd9f3d5005e7bf1aa82e7c74ef3fa4893e88bf87ba07634b53d691f4be5b48f",
-          "changed": false
+          "path": "PROVENANCE.md",
+          "export_sha256": "723bd99ea38f41a8357c8d7ff52aa1157235032d1f8a73b5176dc809af53c72d",
+          "origin": "public-only synthetic fixture or export documentation"
         }
       ]
     },
@@ -113,13 +120,13 @@
     },
     {
       "id": "clickup",
-      "export_version": "1.3.2-public.1",
+      "export_version": "1.3.3-public.1",
       "source_files": [
         {
           "path": "SKILL.md",
-          "source_sha256": "f4c206af112e71e04e4911d0a62f887f3e8ce05ecc4197c2ae95a1ad24778ed0",
-          "export_sha256": "f4c206af112e71e04e4911d0a62f887f3e8ce05ecc4197c2ae95a1ad24778ed0",
-          "changed": false
+          "source_sha256": "98418cdca6804e33d4296d4e84df17d603f0e52d0364a6bb597d1d59fb439d50",
+          "export_sha256": "8a01cb7ab96dd3a2efdaa3964cfde90cc6baf4fd20fe26af03875cdc38625b5d",
+          "changed": true
         },
         {
           "path": "agents/openai.yaml",
@@ -141,8 +148,8 @@
         },
         {
           "path": "assets/icon.svg",
-          "source_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
-          "export_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "source_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "export_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
           "changed": false
         },
         {
@@ -171,14 +178,14 @@
         },
         {
           "path": "references/batch-plan.md",
-          "source_sha256": "52f269133e71a4d57571d03dac89cccf8fdc1bdbf64a050077911ff7627e5c95",
-          "export_sha256": "52f269133e71a4d57571d03dac89cccf8fdc1bdbf64a050077911ff7627e5c95",
-          "changed": false
+          "source_sha256": "6df1fcaf1b24bab0ad046335f4d6c24a2c214c0e900be9705b0093b7b0d12b14",
+          "export_sha256": "c11e5b5e3c19ee5ac2dab5afac65f43f901427bab81a5594f9481717848c8dc1",
+          "changed": true
         },
         {
           "path": "references/brain-execution-v0.1.md",
           "source_sha256": "6bf81a8c8f3038a164b74656919df76b8dd9a5ff40028f15da2d08dd63d69a76",
-          "export_sha256": "bc126b4baa2d90053fa361c642afd2e1a93361085f186f8658b00ae8766dfd6f",
+          "export_sha256": "d7d92c459b1da64927616ef2f290c9b1412cde3a11e957433256b67026a5e2ee",
           "changed": true
         },
         {
@@ -190,7 +197,7 @@
         {
           "path": "references/brain-routing-continuity.md",
           "source_sha256": "d362d51510241333c5c2341b027c93cd17e6544b819192b1b7e80dd886df8e12",
-          "export_sha256": "9bb279b1fe8cb76dfb413dca8656574aba4454eeb83bc13ddaaea3578f454eee",
+          "export_sha256": "98585485e304ebb6c259aa0d06b99bec6fb564bd11deee810bed38011236d863",
           "changed": true
         },
         {
@@ -206,10 +213,16 @@
           "changed": false
         },
         {
+          "path": "references/personalized-writing.md",
+          "source_sha256": "f2722500a921f278087701b406ce7fb609a09ecca4d40ad71fb275ae7b1f63f1",
+          "export_sha256": "649fafb16d2b707568b214c228e787ebd1e8eb0b72b20b958bd519d2a4b70fd8",
+          "changed": true
+        },
+        {
           "path": "references/preparation-reply.md",
-          "source_sha256": "0fb03a280871c8cd3ee197f60aa70ebbcb50d0a9ceb51c40a7d0de6d21ecd2c7",
-          "export_sha256": "0fb03a280871c8cd3ee197f60aa70ebbcb50d0a9ceb51c40a7d0de6d21ecd2c7",
-          "changed": false
+          "source_sha256": "553190050a5b987d6e32e0046081647b4f5e573a1ef998a190393cd5f2d8abe5",
+          "export_sha256": "62166ffb1a65cd7d05a0b143022b509be94e860af1a05a49f0da6f15a5b87231",
+          "changed": true
         },
         {
           "path": "references/reporting-protocol-v1.md",
@@ -226,7 +239,7 @@
         {
           "path": "references/task-list-progress-v0.1.md",
           "source_sha256": "f9fe997eec5c6539026105c8c6397b20656973bef1bbc1b56a109353d661429b",
-          "export_sha256": "a67847593a669aca6e31b268033abee385a2816752a5555305acf9933c3ea984",
+          "export_sha256": "66722d9b7f3bf5136bf93fb9eae7e741b9a77e752de336f3383209bd47fd3ee4",
           "changed": true
         },
         {
@@ -282,6 +295,13 @@
           "source_sha256": "920baf09b8a2075f8c3eb4251728e38ec66cab84979e90150f61d818811ea67b",
           "export_sha256": "920baf09b8a2075f8c3eb4251728e38ec66cab84979e90150f61d818811ea67b",
           "changed": false
+        }
+      ],
+      "public_only_files": [
+        {
+          "path": "PROVENANCE.md",
+          "export_sha256": "cd80b31ce160e2db7e0df25ef3870dcaa4c5d47e66f9bb4cb6433868431abbc3",
+          "origin": "public-only synthetic fixture or export documentation"
         }
       ]
     },
@@ -500,6 +520,256 @@
           "changed": false
         }
       ]
+    },
+    {
+      "id": "adversarial-debate",
+      "export_version": "1.1.0-public.1",
+      "source_files": [
+        {
+          "path": "NOTICE",
+          "source_sha256": "ad7d5a6c34e593990af934dec3023f6152092904e5988a4ab23a4477637ee4e6",
+          "export_sha256": "ad7d5a6c34e593990af934dec3023f6152092904e5988a4ab23a4477637ee4e6",
+          "changed": false
+        },
+        {
+          "path": "PROVENANCE.md",
+          "source_sha256": "0585de812d24d99fefd30dc579cc0772809057b04609ff088c5885dcfd61f8bc",
+          "export_sha256": "0585de812d24d99fefd30dc579cc0772809057b04609ff088c5885dcfd61f8bc",
+          "changed": false
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "a59ecdd454e80b39200165ad15e2ecc1f7bcb273250e6c5a13ea7de303ae5830",
+          "export_sha256": "a59ecdd454e80b39200165ad15e2ecc1f7bcb273250e6c5a13ea7de303ae5830",
+          "changed": false
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "0e5c794426989fa119d25c66413148aa30ad77099efbdeda0a252a3236b1e2de",
+          "export_sha256": "0e5c794426989fa119d25c66413148aa30ad77099efbdeda0a252a3236b1e2de",
+          "changed": false
+        },
+        {
+          "path": "assets/acceptance-cases.md",
+          "source_sha256": "49851c5d6913794157412e773aaced67c0219bbd9a286ff54eb81c85ef4427c6",
+          "export_sha256": "49851c5d6913794157412e773aaced67c0219bbd9a286ff54eb81c85ef4427c6",
+          "changed": false
+        },
+        {
+          "path": "assets/criteria.md",
+          "source_sha256": "58c17c9f348fec5c3e36cb962a94ffb04e5088b47aa8684ac120014e3355741b",
+          "export_sha256": "58c17c9f348fec5c3e36cb962a94ffb04e5088b47aa8684ac120014e3355741b",
+          "changed": false
+        },
+        {
+          "path": "assets/debate-request.md",
+          "source_sha256": "f89c70814c57b2e5302c2b3c8e79c8266570f14464f1aa04a3f9319b236171cc",
+          "export_sha256": "f89c70814c57b2e5302c2b3c8e79c8266570f14464f1aa04a3f9319b236171cc",
+          "changed": false
+        },
+        {
+          "path": "assets/debate-result.md",
+          "source_sha256": "b526fea48dbc9843afcec4f99e9647e193a31a56277c3b3f1fdd320762eb860d",
+          "export_sha256": "b526fea48dbc9843afcec4f99e9647e193a31a56277c3b3f1fdd320762eb860d",
+          "changed": false
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "export_sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "changed": false
+        },
+        {
+          "path": "assets/isolation-record.md",
+          "source_sha256": "0808596e3c96d996bd3a81809948de9c0dd2e72219811cd38e44322496deb8dc",
+          "export_sha256": "0808596e3c96d996bd3a81809948de9c0dd2e72219811cd38e44322496deb8dc",
+          "changed": false
+        },
+        {
+          "path": "references/continuity-and-reporting.md",
+          "source_sha256": "bb345587b2f92eeb1ed9103494030ba6769620b3a29e71368c3f327c6e7f219d",
+          "export_sha256": "bb345587b2f92eeb1ed9103494030ba6769620b3a29e71368c3f327c6e7f219d",
+          "changed": false
+        },
+        {
+          "path": "references/debate.md",
+          "source_sha256": "c827e711e67509fd9341486718a5668ee5f18183fa151d789bab5b435c4eaa77",
+          "export_sha256": "c827e711e67509fd9341486718a5668ee5f18183fa151d789bab5b435c4eaa77",
+          "changed": false
+        },
+        {
+          "path": "references/evidence-and-scoring.md",
+          "source_sha256": "7ee97c2dd90f969a466a802fdc2202c7b43d02aa688a4815cfff4f4c018e61c2",
+          "export_sha256": "7ee97c2dd90f969a466a802fdc2202c7b43d02aa688a4815cfff4f4c018e61c2",
+          "changed": false
+        },
+        {
+          "path": "references/intake.md",
+          "source_sha256": "4705ec4bffaec776214f79e9bd12506dd169061819d7298caeed48ff5a4fad1f",
+          "export_sha256": "4705ec4bffaec776214f79e9bd12506dd169061819d7298caeed48ff5a4fad1f",
+          "changed": false
+        },
+        {
+          "path": "references/invariant-probe.md",
+          "source_sha256": "d98fd687a02d3760fcc6533b50997e1675b720f864892d0286285fb0f5b90e98",
+          "export_sha256": "d98fd687a02d3760fcc6533b50997e1675b720f864892d0286285fb0f5b90e98",
+          "changed": false
+        },
+        {
+          "path": "references/isolation.md",
+          "source_sha256": "e6d0cd3a25bc7aba9a1b6916e34b98d9d7b251b77f14c2ca6270a58810a77f4e",
+          "export_sha256": "e6d0cd3a25bc7aba9a1b6916e34b98d9d7b251b77f14c2ca6270a58810a77f4e",
+          "changed": false
+        },
+        {
+          "path": "references/synthesis.md",
+          "source_sha256": "ac45e1e2a4f83b547565d5745f1e079d55349dc768ded0b7aaff21295e35f37e",
+          "export_sha256": "ac45e1e2a4f83b547565d5745f1e079d55349dc768ded0b7aaff21295e35f37e",
+          "changed": false
+        },
+        {
+          "path": "scripts/lock_verdict.py",
+          "source_sha256": "c9635b381d90566257f949563749288d5b7d0d24115e98a7eb6ae8e0086b7776",
+          "export_sha256": "c9635b381d90566257f949563749288d5b7d0d24115e98a7eb6ae8e0086b7776",
+          "changed": false
+        },
+        {
+          "path": "scripts/validate_isolation.py",
+          "source_sha256": "64674b5676b75b8e0e6435ff6d5b767c951cde29378f5cec7e5881c357d0411f",
+          "export_sha256": "64674b5676b75b8e0e6435ff6d5b767c951cde29378f5cec7e5881c357d0411f",
+          "changed": false
+        },
+        {
+          "path": "scripts/validate_record.py",
+          "source_sha256": "ea485da8f9e52bc8bbe7b024b644077c682fa17929ed36c4190a1d52d7bda2db",
+          "export_sha256": "ea485da8f9e52bc8bbe7b024b644077c682fa17929ed36c4190a1d52d7bda2db",
+          "changed": false
+        },
+        {
+          "path": "tests/test_isolation.py",
+          "source_sha256": "cb669ec7cc1ad3d0632e6bd28af33e3848855eeec6523ba68f3c71569ec4913b",
+          "export_sha256": "cb669ec7cc1ad3d0632e6bd28af33e3848855eeec6523ba68f3c71569ec4913b",
+          "changed": false
+        },
+        {
+          "path": "tests/test_lock_verdict.py",
+          "source_sha256": "ff57fa63ad5a34b7ef3b893ea2ddfc85a4a39dc6c0b8b68dac73554347608698",
+          "export_sha256": "ff57fa63ad5a34b7ef3b893ea2ddfc85a4a39dc6c0b8b68dac73554347608698",
+          "changed": false
+        },
+        {
+          "path": "tests/test_validate_record.py",
+          "source_sha256": "2d59abab908abf0ee3b755da70e477d2621d81667bac9a5789b387694119b823",
+          "export_sha256": "2d59abab908abf0ee3b755da70e477d2621d81667bac9a5789b387694119b823",
+          "changed": false
+        }
+      ],
+      "public_only_files": []
+    },
+    {
+      "id": "write-as-ryan",
+      "export_version": "1.2.0-generic.1",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "695c804df42b5ac1304461b9de5db96b04deaeb5702b12c25cede67a80fedb24",
+          "export_sha256": "866b0265e180690f629ca599a95aad6454fc251ace2c092b031a89b0f75d9124",
+          "changed": true
+        },
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "64e7262dc3118f1c2f89462b68139db19762e80a17d5b0101cc36f966daa66b7",
+          "export_sha256": "d2f79a82c1116594447fa5a2237c513bab61d0969baa57156d6a84f028ad06a7",
+          "changed": true
+        },
+        {
+          "path": "assets/icon.svg",
+          "source_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "export_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "changed": false
+        },
+        {
+          "path": "assets/receipt-template.json",
+          "source_sha256": "70a74934040c93607a310b9c24e360e8b605e8217101cb6250434b97fa4f80e0",
+          "export_sha256": "70a74934040c93607a310b9c24e360e8b605e8217101cb6250434b97fa4f80e0",
+          "changed": false
+        },
+        {
+          "path": "references/channel-routing.md",
+          "source_sha256": "6e3e1eee64e0adc87f9302227972990a5929e5c6708c8992eed233e8379f4011",
+          "export_sha256": "a823083953e01576fc6c433d092464efa323582c5b212e58eb7b6da31f2acc57",
+          "changed": true
+        },
+        {
+          "path": "references/evidence-maintenance.md",
+          "source_sha256": "b4ea1ad0bd5db3675292677e4085ba96746806b5d3d5e60310e56a96ec6fb590",
+          "export_sha256": "85d37cfe0a8ebe191fe42c3acc93e229aa7f913602b64f38762174c4e8fe2b77",
+          "changed": true
+        },
+        {
+          "path": "references/prepare-validate.md",
+          "source_sha256": "7b305420669c71cc5fc15d80052de4bf5958fd1c88d1bbc9481cff862c842f99",
+          "export_sha256": "0d28c2696ebf4440d5330e9700f90f81bbbd055d25d11864287871cac359ec76",
+          "changed": true
+        },
+        {
+          "path": "references/recipient-history.md",
+          "source_sha256": "70facedfa94dcabbbfb637a4ee58ea8195eaa6ef568ed631552881807ad69739",
+          "export_sha256": "905852666ebb3055aff9b593ce8d9cdd96ae542768a62bb4e4de0fd4d5b82221",
+          "changed": true
+        },
+        {
+          "path": "references/workflow-safeguards.md",
+          "source_sha256": "e97d1c19621ebd128f8ce5531308524ce5514ad924d3de6e8d039720777f5a4a",
+          "export_sha256": "c4792eb473ba668a1dde122e1c078145a9644f1ad9ab46ba4da3bd16e5e6889e",
+          "changed": true
+        },
+        {
+          "path": "scripts/check_receipt.py",
+          "source_sha256": "6ca94f408da731a6324414d18e6c8b2c767d6a30bd67041b9eecfd09db4fdecb",
+          "export_sha256": "6ca94f408da731a6324414d18e6c8b2c767d6a30bd67041b9eecfd09db4fdecb",
+          "changed": false
+        },
+        {
+          "path": "scripts/workflow_gate.py",
+          "source_sha256": "2f7088ab2115f5b360dabaf7208c33c31d93d50839f1bf28215513fd5da1ff4f",
+          "export_sha256": "2f7088ab2115f5b360dabaf7208c33c31d93d50839f1bf28215513fd5da1ff4f",
+          "changed": false
+        }
+      ],
+      "public_only_files": [
+        {
+          "path": "PROVENANCE.md",
+          "export_sha256": "31b96d4ba3ca925b0a1f623849d547cc0865c07d7663dfa69ec5777d60934ec2",
+          "origin": "public-only synthetic fixture or export documentation"
+        },
+        {
+          "path": "examples/README.md",
+          "export_sha256": "57abe4c6a7ee7450bbf1421e958fab988fd1d7571ee616ad53d5e7c88d8c67ea",
+          "origin": "public-only synthetic fixture or export documentation"
+        },
+        {
+          "path": "examples/run_synthetic.py",
+          "export_sha256": "366837192c53f849b0117f3352dead15704fb2cfd08eb7b3a0f147ff15c0cc7c",
+          "origin": "public-only synthetic fixture or export documentation"
+        },
+        {
+          "path": "examples/synthetic/assets/profile-manifest.json",
+          "export_sha256": "a88b0b49a21157e1a8e091632b6de6b63272ad7827b9d554e629ce4a0a2ff962",
+          "origin": "public-only synthetic fixture or export documentation"
+        },
+        {
+          "path": "examples/synthetic/assets/profile-v0.0.0.json",
+          "export_sha256": "d11677c029b8aa5170acc2877f7af86de3d3e4dbe2b82c8984cc17c8270f6daf",
+          "origin": "public-only synthetic fixture or export documentation"
+        },
+        {
+          "path": "tests/test_synthetic_workflow.py",
+          "export_sha256": "80b849ff0817bc7991a0026cab24bf13491cb9b138fb316a530e840b030ae79f",
+          "origin": "public-only synthetic fixture or export documentation"
+        }
+      ],
+      "exclusions": "Real profiles and their identities/hashes/history, correspondence, feedback, evaluation data and runtime receipts are intentionally omitted. Synthetic fixtures are public-only and are never production evidence."
     }
   ],
   "additional_export_files": [

@@ -3,7 +3,7 @@
 Read the canonical [routing ledger](skill-routing-ledger.md), ROUTE-04 and ROUTE-05, for all shared routing and contract locators. This module owns only session-init-specific reporting parameters, not a second routing policy.
 
 Configure only six scoped parameters:
-- Destination: existing authorized IronFlow planning record and private Space artifact category, subject to explicit project/privacy exceptions.
+- Destination: existing authorized project planning record and private Space artifact category, subject to explicit project/privacy exceptions.
 - Target: the independently resolved authorized session-init development record for development reporting; routine initialization has no automatic ClickUp business-task target; an already-authorized briefing update uses the resolved existing full Space report/ledger.
 - Payload: finalized development version/evidence, or the reconciled source-linked briefing with freshness, coverage and remaining gaps; no raw private history.
 - Acceptance: coordinator's authorized final effects and bounded readback, independently identified; no replay of completed work.

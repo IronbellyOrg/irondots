@@ -3,7 +3,7 @@
   "packages": [
     {
       "id": "session-init",
-      "version": "1.2.1-public.1",
+      "version": "1.2.3-public.1",
       "path": "packages/session-init",
       "entrypoint": "SKILL.md",
       "runtimes": [
@@ -18,17 +18,17 @@
         "license_file": "PROVENANCE.md"
       },
       "public_files": {
-        "PROVENANCE.md": "0accbc2f531901e5d5a1fed87dff9607664d550476f36dfd9f55ac0be4e7b8ca",
-        "SKILL.md": "1923a1517b3447a0cc95102c5c910150aae7547045169c8a901092b6afa0a957",
+        "PROVENANCE.md": "723bd99ea38f41a8357c8d7ff52aa1157235032d1f8a73b5176dc809af53c72d",
+        "SKILL.md": "6963088518b90026db3792e6641f3f59b8f003bd9f1176b9ad74dd8bf172b102",
         "agents/openai.yaml": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
-        "assets/icon.svg": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+        "assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
         "assets/priority-briefing.md": "70ddeb1f614cdfbd1a85e2568b326346ff29c700e86676bf8455bad1a7f0406d",
         "assets/session-primer.md": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
-        "assets/session-receipt.md": "f69796f3734d3a88767fa6bc65ba22ebb9f3821559099cdae686d3e7fe5d4241",
-        "references/clickup-routing.md": "3952691d9a8fba0f167d927769bd84820ffefa34fcfa852e893d439a6bb0e0e5",
-        "references/priority-briefing.md": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
-        "references/session-continuity.md": "6dd9f3d5005e7bf1aa82e7c74ef3fa4893e88bf87ba07634b53d691f4be5b48f",
-        "references/skill-routing-ledger.md": "e1cbf590a2f0a6dcf6e5c97fbba4df4eaebfc85c680c5d6fd23d60de49ac6f58",
+        "assets/session-receipt.md": "52430d54e94abea02c80be6ce8eeaeb3ce17b5b582ccb518daf751b7079198ab",
+        "references/clickup-routing.md": "1cf8cac188c1e24dd10cc4b6c87fcf6bd7d382c68395214c18a18c1899dc7f46",
+        "references/priority-briefing.md": "e13f3e712515990be94064462c61ea3da1277d70f8b2abc8475183735580775d",
+        "references/session-continuity.md": "570015dd85dd0143f2c604aa7527588050dfe8ef34cf656a990aaff98eeb7608",
+        "references/skill-routing-ledger.md": "915e33e5ec5e338c1efe442d21997480cda7ceafd3ef17dd54a1b93a0f444647",
         "references/verification-and-authority.md": "69538b3b838d0c5224817b8efb75458e83362ae1a11911f0a05617560e7a8c31",
         "references/voice-waiting.md": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217"
       },
@@ -62,7 +62,7 @@
     },
     {
       "id": "clickup",
-      "version": "1.3.2-public.1",
+      "version": "1.3.3-public.1",
       "path": "packages/clickup",
       "entrypoint": "SKILL.md",
       "runtimes": [
@@ -75,26 +75,27 @@
         "license_file": "PROVENANCE.md"
       },
       "public_files": {
-        "PROVENANCE.md": "24101e63b40b86c17e74f8d0b4693298962ee9810cea88639696fdd92c58a2ec",
-        "SKILL.md": "f4c206af112e71e04e4911d0a62f887f3e8ce05ecc4197c2ae95a1ad24778ed0",
+        "PROVENANCE.md": "cd80b31ce160e2db7e0df25ef3870dcaa4c5d47e66f9bb4cb6433868431abbc3",
+        "SKILL.md": "8a01cb7ab96dd3a2efdaa3964cfde90cc6baf4fd20fe26af03875cdc38625b5d",
         "agents/openai.yaml": "1664c23681d086485c2fc7db38530e6a812e1dba226b77268785187bd459e85a",
         "assets/batch-template.json": "554fb8dd617c26bc2628cf8d1f3343dc2b8c6d3d0632b27e6db7afb615fc24ed",
         "assets/brain-brief.md": "1a6a974a96577d96a4fc8f4d52895bbf9cb49f826220eec7b4443641ab88a8e8",
-        "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
         "assets/reporting-request.md": "59e78838b34b709f7e0ccc7f36d06b6bdbdb55f9608a946d3914bf8a55e73971",
         "assets/reporting-result.md": "43dbc126673350a5d05bcb0931553fd22e903bb9b9f021903f848e8d820c1629",
         "references/authoring-delegation-v1.md": "8652115ff8f46e8d02b6205a52474ea859322a30abeb86312a07cd4e2d92b411",
         "references/batch-contract.md": "76aebc944fb5fc46c18a7e56c8b4eeec90ee72fe1f928be0b562c842ab243542",
-        "references/batch-plan.md": "52f269133e71a4d57571d03dac89cccf8fdc1bdbf64a050077911ff7627e5c95",
-        "references/brain-execution-v0.1.md": "bc126b4baa2d90053fa361c642afd2e1a93361085f186f8658b00ae8766dfd6f",
+        "references/batch-plan.md": "c11e5b5e3c19ee5ac2dab5afac65f43f901427bab81a5594f9481717848c8dc1",
+        "references/brain-execution-v0.1.md": "d7d92c459b1da64927616ef2f290c9b1412cde3a11e957433256b67026a5e2ee",
         "references/brain-execution-v0.2.md": "ac471697b014b1f74c3f7b0d1616cb14c53694637e49baf70cc02a22f1a344b1",
-        "references/brain-routing-continuity.md": "9bb279b1fe8cb76dfb413dca8656574aba4454eeb83bc13ddaaea3578f454eee",
+        "references/brain-routing-continuity.md": "98585485e304ebb6c259aa0d06b99bec6fb564bd11deee810bed38011236d863",
         "references/execution-gates.md": "d845223c5b3dad40600d8299b6e22b01a9fb9c5a1cad33ae1cb85d2e62f1218b",
         "references/handoff-reconciliation.md": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
-        "references/preparation-reply.md": "0fb03a280871c8cd3ee197f60aa70ebbcb50d0a9ceb51c40a7d0de6d21ecd2c7",
+        "references/personalized-writing.md": "649fafb16d2b707568b214c228e787ebd1e8eb0b72b20b958bd519d2a4b70fd8",
+        "references/preparation-reply.md": "62166ffb1a65cd7d05a0b143022b509be94e860af1a05a49f0da6f15a5b87231",
         "references/reporting-protocol-v1.md": "e9a243b9be1ff622dbacd4479f5117a6acfa183572b0c5cf1abbdd940e978686",
         "references/result-normalization.md": "d12167ffdbc1cfc3d98e7b0a40b6fcb7a018c7192b89172e92716aea8e9d8ef8",
-        "references/task-list-progress-v0.1.md": "a67847593a669aca6e31b268033abee385a2816752a5555305acf9933c3ea984",
+        "references/task-list-progress-v0.1.md": "66722d9b7f3bf5136bf93fb9eae7e741b9a77e752de336f3383209bd47fd3ee4",
         "references/unanswered-review.md": "1d184f1d0c772955ae733c144858f90c98406059de57f19960b47e968c18e060",
         "references/waiting-and-budget.md": "a86a8b573f6e63d86831ffc9cd2ba6da5c85a0fe7c6d237e8c62db1631b15995",
         "scripts/batch_stage.py": "ca155aaf416c73442aeeb7fdb09b703b47ce8d00eed5e64c8c81db914a333dc5",
@@ -219,6 +220,84 @@
         "references/research-basis.md": "cf2bd770415c07a61104c58d33032a425ba1e87d61f84e4e387e0ac41808f508",
         "scripts/test_validator.py": "bab92b1abd089db856db2d9a15ab1504c84b512d528e43018a7f642b4e004260",
         "scripts/validate_ldd.py": "83064150af1530121dc0f19c25b2bd6a99fdd65d238d369414da8377eac9d5e4"
+      },
+      "publication_approved": false
+    },
+    {
+      "id": "adversarial-debate",
+      "version": "1.1.0-public.1",
+      "path": "packages/adversarial-debate",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [
+        "clickup"
+      ],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "Upstream MIT notice retained; no additional license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "NOTICE": "ad7d5a6c34e593990af934dec3023f6152092904e5988a4ab23a4477637ee4e6",
+        "PROVENANCE.md": "0585de812d24d99fefd30dc579cc0772809057b04609ff088c5885dcfd61f8bc",
+        "SKILL.md": "a59ecdd454e80b39200165ad15e2ecc1f7bcb273250e6c5a13ea7de303ae5830",
+        "agents/openai.yaml": "0e5c794426989fa119d25c66413148aa30ad77099efbdeda0a252a3236b1e2de",
+        "assets/acceptance-cases.md": "49851c5d6913794157412e773aaced67c0219bbd9a286ff54eb81c85ef4427c6",
+        "assets/criteria.md": "58c17c9f348fec5c3e36cb962a94ffb04e5088b47aa8684ac120014e3355741b",
+        "assets/debate-request.md": "f89c70814c57b2e5302c2b3c8e79c8266570f14464f1aa04a3f9319b236171cc",
+        "assets/debate-result.md": "b526fea48dbc9843afcec4f99e9647e193a31a56277c3b3f1fdd320762eb860d",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "assets/isolation-record.md": "0808596e3c96d996bd3a81809948de9c0dd2e72219811cd38e44322496deb8dc",
+        "references/continuity-and-reporting.md": "bb345587b2f92eeb1ed9103494030ba6769620b3a29e71368c3f327c6e7f219d",
+        "references/debate.md": "c827e711e67509fd9341486718a5668ee5f18183fa151d789bab5b435c4eaa77",
+        "references/evidence-and-scoring.md": "7ee97c2dd90f969a466a802fdc2202c7b43d02aa688a4815cfff4f4c018e61c2",
+        "references/intake.md": "4705ec4bffaec776214f79e9bd12506dd169061819d7298caeed48ff5a4fad1f",
+        "references/invariant-probe.md": "d98fd687a02d3760fcc6533b50997e1675b720f864892d0286285fb0f5b90e98",
+        "references/isolation.md": "e6d0cd3a25bc7aba9a1b6916e34b98d9d7b251b77f14c2ca6270a58810a77f4e",
+        "references/synthesis.md": "ac45e1e2a4f83b547565d5745f1e079d55349dc768ded0b7aaff21295e35f37e",
+        "scripts/lock_verdict.py": "c9635b381d90566257f949563749288d5b7d0d24115e98a7eb6ae8e0086b7776",
+        "scripts/validate_isolation.py": "64674b5676b75b8e0e6435ff6d5b767c951cde29378f5cec7e5881c357d0411f",
+        "scripts/validate_record.py": "ea485da8f9e52bc8bbe7b024b644077c682fa17929ed36c4190a1d52d7bda2db",
+        "tests/test_isolation.py": "cb669ec7cc1ad3d0632e6bd28af33e3848855eeec6523ba68f3c71569ec4913b",
+        "tests/test_lock_verdict.py": "ff57fa63ad5a34b7ef3b893ea2ddfc85a4a39dc6c0b8b68dac73554347608698",
+        "tests/test_validate_record.py": "2d59abab908abf0ee3b755da70e477d2621d81667bac9a5789b387694119b823"
+      },
+      "publication_approved": false
+    },
+    {
+      "id": "write-as-ryan",
+      "version": "1.2.0-generic.1",
+      "path": "packages/write-as-ryan",
+      "entrypoint": "SKILL.md",
+      "runtimes": [
+        "dot"
+      ],
+      "dependencies": [],
+      "provenance": {
+        "source": "https://github.com/IronbellyOrg/irondots",
+        "license": "No open-source license grant asserted; release rights review pending",
+        "license_file": "PROVENANCE.md"
+      },
+      "public_files": {
+        "PROVENANCE.md": "31b96d4ba3ca925b0a1f623849d547cc0865c07d7663dfa69ec5777d60934ec2",
+        "SKILL.md": "866b0265e180690f629ca599a95aad6454fc251ace2c092b031a89b0f75d9124",
+        "agents/openai.yaml": "d2f79a82c1116594447fa5a2237c513bab61d0969baa57156d6a84f028ad06a7",
+        "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "assets/receipt-template.json": "70a74934040c93607a310b9c24e360e8b605e8217101cb6250434b97fa4f80e0",
+        "examples/README.md": "57abe4c6a7ee7450bbf1421e958fab988fd1d7571ee616ad53d5e7c88d8c67ea",
+        "examples/run_synthetic.py": "366837192c53f849b0117f3352dead15704fb2cfd08eb7b3a0f147ff15c0cc7c",
+        "examples/synthetic/assets/profile-manifest.json": "a88b0b49a21157e1a8e091632b6de6b63272ad7827b9d554e629ce4a0a2ff962",
+        "examples/synthetic/assets/profile-v0.0.0.json": "d11677c029b8aa5170acc2877f7af86de3d3e4dbe2b82c8984cc17c8270f6daf",
+        "references/channel-routing.md": "a823083953e01576fc6c433d092464efa323582c5b212e58eb7b6da31f2acc57",
+        "references/evidence-maintenance.md": "85d37cfe0a8ebe191fe42c3acc93e229aa7f913602b64f38762174c4e8fe2b77",
+        "references/prepare-validate.md": "0d28c2696ebf4440d5330e9700f90f81bbbd055d25d11864287871cac359ec76",
+        "references/recipient-history.md": "905852666ebb3055aff9b593ce8d9cdd96ae542768a62bb4e4de0fd4d5b82221",
+        "references/workflow-safeguards.md": "c4792eb473ba668a1dde122e1c078145a9644f1ad9ab46ba4da3bd16e5e6889e",
+        "scripts/check_receipt.py": "6ca94f408da731a6324414d18e6c8b2c767d6a30bd67041b9eecfd09db4fdecb",
+        "scripts/workflow_gate.py": "2f7088ab2115f5b360dabaf7208c33c31d93d50839f1bf28215513fd5da1ff4f",
+        "tests/test_synthetic_workflow.py": "80b849ff0817bc7991a0026cab24bf13491cb9b138fb316a530e840b030ae79f"
       },
       "publication_approved": false
     }

@@ -2,6 +2,8 @@
 
 Load for source assembly or reply ingestion. Permitted effects remain those in the actual request and selected exact contract: legacy v1 read/propose or the separate execution/0.1 effect envelope. This reference adds no authority.
 
+For communications explicitly written as the profile owner, use [personalized writing](personalized-writing.md) before the AI request and on its returned final text. Other AI/domain reports retain their actual authorship.
+
 ## Highest-value preparation
 
 - Identify the decision/outcome, not just the requested wording. Preserve material corrections and distinguish settled decisions from proposals.

@@ -4,7 +4,7 @@ Distinct from immutable dot-authoring-delegation/v1. Local helpers validate reco
 ## Scope
 All ClickUp domain work routes through AI. Existing v1 handles its four read/propose operations unchanged; exact lookups are scoped read_summary operations, not native domain retrieval. This new contract covers only separately authorized enumerated effects. The coordinator owns input transport, continuity and independent verification, never substitutes native task/report/attachment/notification writes. Brain creates the substantive report. Non-ClickUp Library transport may faithfully deliver it under existing permission; draft-created, saved, published and audience-verified stay separate.
 
-Unsupported in this helper means a gap in the locally validated effect contract, not a finding that ClickUp AI lacks the capability. A separately authorized task-description append has been observed in actual AI execution. Preserve the exact requested scope and AI-first route; use clearly labeled external-operation receipts where this helper cannot represent an authorized operation, with appropriate authority and independent verification, never native domain-write fallback or a fabricated supported effect type.
+Unsupported in this helper means a gap in the locally validated effect contract, not a finding that ClickUp AI lacks the capability. Preserve the exact requested scope and AI-first route; use clearly labeled external-operation receipts where this helper cannot represent an authorized operation, with appropriate authority and independent verification, never native domain-write fallback or a fabricated supported effect type.
 
 ## Request envelope
 Required fields, with genuine unknowns and reasons explicit:
@@ -42,8 +42,8 @@ The local helper performs no network/execution. Persist exact communication rese
 
 A single top-level packet starts execution. On partial result, resume only named incomplete effects within unchanged actual authority. If Brain redundantly asks for already-granted approval, coordinator may supply the exact retained user authority in the same thread, with no broadened payload/recipient or replay of verified effects; count this continuation. Uncertain outcome requires authoritative reconciliation, not repetition after silence. Cancellation stops local future dispatch but remote cancellation remains unproved unless actually supported.
 
-## Actual evidence and remaining validation
-A private coordinator-owned operation validated a bounded task/report/file/notification combination, including attachment identity and approved recipient readback after same-thread authority reaffirmation. Business names and source IDs are omitted from this public export. Historical cost was nine connector calls plus two HTTP transfers, with discovery reported separately; no savings or arbitrary mutation reliability is claimed.
+## Required evidence and validation
+No private operation details, cost logs or runtime receipts are included. Each consuming deployment must establish its own bounded capability and independent readback evidence; source availability does not establish live execution or savings.
 
 Acceptance and operational limits: exact envelope/type/authority/dependency validation; unknown extra effects/recipient/file/hash rejection; no native mutation fallback; actual captured partial→continuation→verified outcomes; all-through-AI small/heavy/effect/report fresh routing; zero-call local and real executor-less recovery; stale/missing/corrupt/concurrent state; no replay of actual successful effects; actual readbacks distinguished from AI claims. Changes require independent review and actual tests. Record any new-contract live dispatch gap separately from imported real capability proof. Parent release requires truthful bounded supported scope and no unresolved critical safety defect, not claim of universal reliability.
 

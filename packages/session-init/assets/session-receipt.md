@@ -12,7 +12,7 @@ call_relationship: unknown # same | new | unknown; requires evidence
 session_epoch: null # actual provider epoch if available, otherwise unknown
 skill:
   name: session-init
-  declared_version: 1.2.1
+  declared_version: 1.2.3
   resource_identity: null
   observed_revision_or_hash: null
   read_evidence: null

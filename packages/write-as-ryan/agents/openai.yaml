@@ -1,0 +1,13 @@
+interface:
+  display_name: Personal Writing Template
+  short_description: Generic current-profile and exact-draft checks
+  default_prompt: Use $write-as-ryan with my separately authorized private profile to prepare and validate this draft. Do not use the synthetic examples as personal evidence.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

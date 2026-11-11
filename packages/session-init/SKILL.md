@@ -5,7 +5,7 @@ description: Initialize or refresh a conversation with approved preferences, a p
 
 # Session init
 
-Version 1.2.1. Manual-first, instruction-level preparation and briefing; no automatic hook or guaranteed timer.
+Version 1.2.3. Manual-first, instruction-level preparation and briefing; no automatic hook or guaranteed timer.
 
 ## Initialize
 
@@ -19,7 +19,7 @@ Version 1.2.1. Manual-first, instruction-level preparation and briefing; no auto
 
 ## Core rules
 
-- Apply relevant ledger entries; read a selected skill before use, without preloading every package. Routing is not availability, access or authority.
+- Apply relevant ledger entries; read a selected skill before use, without preloading every package. Routing is not availability, access or authority. Retain the ROUTE-09 reminder in the prepared core: explicit adversarial-debate requests use the installed adversarial-debate skill. Initialization itself does not load that downstream package or start a debate. Retain ROUTE-10 in the prepared core: all communications written as the profile owner use the actual `write-as-ryan` guide, including delegated, resumed and edited drafts, with its recipient-specific sent-history check. Initialization alone does not preload the guide, search correspondence or authorize a draft/send.
 - Apply ROUTE-08 checkpoint guidance during ongoing authorized work as well as manual-init recovery: ready/unblocked, meaningful milestones and completion, not real-time mirroring.
 - ClickUp remains authoritative for its queue. User decisions, provider states and derived summaries stay distinct. Do not create a second independently edited backlog.
 - Preserve decisions, ownership and completed/uncertain effects. Repeated transcripts or invocation never replay sends or source changes.
