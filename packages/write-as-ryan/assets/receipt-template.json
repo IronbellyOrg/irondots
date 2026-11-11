@@ -1,0 +1,39 @@
+{
+  "schema": "personal-writing-receipt/1.0",
+  "profile_version": null,
+  "profile_read_verified": false,
+  "profile_sha256": null,
+  "draft_sha256": null,
+  "channel": null,
+  "recipient_verified": false,
+  "scope": {
+    "purpose": null,
+    "account": null,
+    "recipient": null,
+    "thread": null
+  },
+  "read_evidence": [],
+  "hard_gates": {
+    "identity": "unknown",
+    "channel": "unknown",
+    "authorization": "unknown",
+    "meaning": "unknown",
+    "privacy": "unknown",
+    "exact_strings": "unknown",
+    "current_context": "unknown"
+  },
+  "style_dimensions": {},
+  "material_style_mismatch": false,
+  "style_exception": {
+    "explicit": false,
+    "draft_sha256": null,
+    "limitation_disclosed": false,
+    "evidence": null,
+    "limitation": null
+  },
+  "mode": "draft-only",
+  "send_eligible": false,
+  "limitations": [],
+  "input_sha256": null,
+  "loaded_rule_ids": []
+}

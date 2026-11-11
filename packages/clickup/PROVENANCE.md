@@ -1,7 +1,9 @@
 # Source provenance and distribution notice
 
-User-authorized source export from the maintained clickup skill on 2026-11-02. Account-specific runtime resource locators and private live evidence identifiers have been removed or replaced with public source links. Discover installed runtime skills by name; GitHub links do not install or invoke a skill.
+User-authorized source export from the maintained clickup skill refreshed on 2026-11-11. Account-specific runtime resource locators and private live evidence identifiers have been removed or replaced with public source links. Discover installed runtime skills by name; GitHub links do not install or invoke a skill.
 
 No open-source license grant is asserted by this export. Retain existing source attribution; obtain maintainer review of distribution/license terms before release or downstream redistribution. Third-party references remain their respective authors’ work.
 
 This source export does not claim exact native-byte parity or independently completed live runtime acceptance.
+
+The current export generalizes personal authorship and account-specific routing. Private pilot narratives are omitted. Conditional writing routes use only the generic public template until a separately authorized private profile is configured.

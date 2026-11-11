@@ -1,0 +1,48 @@
+{
+  "schema": "personal-writing-profile/1.0",
+  "version": "0.0.0",
+  "owner": "Fictional Fixture Author",
+  "status": "synthetic-test-only-not-a-personal-profile",
+  "generated_at": "2000-01-01T00:00:00Z (fixed fictional fixture date)",
+  "source_date_range": "No real source dates; fictional fixture only",
+  "retrieved_at": "No external source retrieved",
+  "human_style_validated": false,
+  "privacy": "Entirely synthetic; contains no private samples or personal preferences.",
+  "retention": "Public fictional fixture only; never add real evidence here.",
+  "precedence": [
+    "The fictional test request supplies every fact and exact string."
+  ],
+  "core": [
+    {
+      "id": "SYN-CORE-1",
+      "status": "synthetic-test-rule",
+      "rule": "For this fixture, preserve the supplied tile count and shape.",
+      "scope": "Fictional tile inventory fixture only"
+    }
+  ],
+  "observations": [
+    {
+      "id": "SYN-OBS-1",
+      "status": "synthetic-no-evidence",
+      "rule": "No personal style observations are available or claimed.",
+      "scope": "This fictional fixture, not any actual writer"
+    }
+  ],
+  "channels": {
+    "document": {
+      "status": "synthetic-test-only",
+      "guidance": "Exercise the document channel identifier without a provider."
+    }
+  },
+  "recipient_overrides": [],
+  "purpose_overlays": {},
+  "gaps": [
+    "No real person, evidence, authorization, native read or transport is modeled."
+  ],
+  "excluded": [
+    "All real correspondence, personal facts, preferences and feedback."
+  ],
+  "refresh_triggers": [
+    "A change to the synthetic test contract, not personal data collection."
+  ]
+}
