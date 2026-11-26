@@ -12,6 +12,7 @@ class PublicPackageSuites(unittest.TestCase):
     def test_offline_package_suites(self):
         for package, folder in [
             ('clickup', 'tests'),
+            ('session-init', 'tests'),
             ('create-level-design', 'scripts'),
             ('task-list', 'tests'),
             ('adversarial-debate', 'tests'),

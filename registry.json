@@ -3,7 +3,7 @@
   "packages": [
     {
       "id": "session-init",
-      "version": "1.2.3-public.1",
+      "version": "1.3.0-public.1",
       "path": "packages/session-init",
       "entrypoint": "SKILL.md",
       "runtimes": [
@@ -19,18 +19,21 @@
       },
       "public_files": {
         "PROVENANCE.md": "723bd99ea38f41a8357c8d7ff52aa1157235032d1f8a73b5176dc809af53c72d",
-        "SKILL.md": "6963088518b90026db3792e6641f3f59b8f003bd9f1176b9ad74dd8bf172b102",
+        "SKILL.md": "c90010fdb621c89e801e90f5a06e00944bb29234557389b0fc3519e2f6019dfb",
         "agents/openai.yaml": "1d295bd3e5ce5a517d1d31695ebc16b8a65657ba4e1a40cfad4d125d6c8f08a4",
         "assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
         "assets/priority-briefing.md": "70ddeb1f614cdfbd1a85e2568b326346ff29c700e86676bf8455bad1a7f0406d",
         "assets/session-primer.md": "01ed021154b068a93877e4620cb24be36609d823d7165a1e0d646e90aaeb1b9a",
-        "assets/session-receipt.md": "52430d54e94abea02c80be6ce8eeaeb3ce17b5b582ccb518daf751b7079198ab",
-        "references/clickup-routing.md": "1cf8cac188c1e24dd10cc4b6c87fcf6bd7d382c68395214c18a18c1899dc7f46",
-        "references/priority-briefing.md": "e13f3e712515990be94064462c61ea3da1277d70f8b2abc8475183735580775d",
-        "references/session-continuity.md": "570015dd85dd0143f2c604aa7527588050dfe8ef34cf656a990aaff98eeb7608",
-        "references/skill-routing-ledger.md": "915e33e5ec5e338c1efe442d21997480cda7ceafd3ef17dd54a1b93a0f444647",
+        "assets/session-receipt.md": "7724132f200acfde2dbe277123d551250524778613ac73c77665b8d08c98899f",
+        "references/clickup-routing.md": "4b46b256a7f0cf0a79d999d5ba0885b7852417a485de06664cc824f36fc90ade",
+        "references/ledger-reconciliation.md": "c9ce5e192dd77c5a56da7642f463dfe0de74061765889045254dcc8b939cd556",
+        "references/priority-briefing.md": "c33b5a38228ed41db397e26ce185f88a613f058be269349e40ddb58c113c15f8",
+        "references/session-continuity.md": "9257089015be9f46fecba25ce06be3990d8c6c1d7f511002848d56b3a81db260",
+        "references/skill-routing-ledger.md": "3c625230afe7b6a16993f7004e1b1f9aa90c32fc10c99de99b0653860096c986",
         "references/verification-and-authority.md": "69538b3b838d0c5224817b8efb75458e83362ae1a11911f0a05617560e7a8c31",
-        "references/voice-waiting.md": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217"
+        "references/voice-waiting.md": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
+        "scripts/ledger_reconcile.py": "cf9193079fbf27e4c8e847c6135e6bb9533422120f62084f9dd733de74b62f94",
+        "tests/test_ledger_reconcile.py": "f6ef5c95278280a0801afc2b553e2bc0956b9d52598ae7c425a2cdad420e6974"
       },
       "publication_approved": false
     },
@@ -62,7 +65,7 @@
     },
     {
       "id": "clickup",
-      "version": "1.3.3-public.1",
+      "version": "1.3.4-public.1",
       "path": "packages/clickup",
       "entrypoint": "SKILL.md",
       "runtimes": [
@@ -76,7 +79,7 @@
       },
       "public_files": {
         "PROVENANCE.md": "cd80b31ce160e2db7e0df25ef3870dcaa4c5d47e66f9bb4cb6433868431abbc3",
-        "SKILL.md": "8a01cb7ab96dd3a2efdaa3964cfde90cc6baf4fd20fe26af03875cdc38625b5d",
+        "SKILL.md": "a4f22c8d7f5fe2be7bc230a6b8b754265deda75475bcc89189eade6bfd192bc5",
         "agents/openai.yaml": "1664c23681d086485c2fc7db38530e6a812e1dba226b77268785187bd459e85a",
         "assets/batch-template.json": "554fb8dd617c26bc2628cf8d1f3343dc2b8c6d3d0632b27e6db7afb615fc24ed",
         "assets/brain-brief.md": "1a6a974a96577d96a4fc8f4d52895bbf9cb49f826220eec7b4443641ab88a8e8",
@@ -91,6 +94,7 @@
         "references/brain-routing-continuity.md": "98585485e304ebb6c259aa0d06b99bec6fb564bd11deee810bed38011236d863",
         "references/execution-gates.md": "d845223c5b3dad40600d8299b6e22b01a9fb9c5a1cad33ae1cb85d2e62f1218b",
         "references/handoff-reconciliation.md": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
+        "references/ledger-reconciliation-v0.1.md": "50f01b0239a587904618598bf0fe0f136f1baa3750a1041d0d32f1ecb858c3eb",
         "references/personalized-writing.md": "649fafb16d2b707568b214c228e787ebd1e8eb0b72b20b958bd519d2a4b70fd8",
         "references/preparation-reply.md": "62166ffb1a65cd7d05a0b143022b509be94e860af1a05a49f0da6f15a5b87231",
         "references/reporting-protocol-v1.md": "e9a243b9be1ff622dbacd4479f5117a6acfa183572b0c5cf1abbdd940e978686",

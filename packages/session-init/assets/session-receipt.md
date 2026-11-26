@@ -1,9 +1,9 @@
-# Session receipt — session-init/1.1
+# Session receipt — session-init/1.2
 
 Retain in existing authorized session/work context. No new business task or automatic write authority; record already-authorized briefing persistence separately. Fill from actual observations. Use null plus reason for unknowns. This is an instruction-level schema, not a runtime validator.
 
 ```yaml
-contract_version: session-init/1.1
+contract_version: session-init/1.2
 invocation_id: null # locally generated ID, never represented as provider identity
 provider_call_id: null
 call_identity_reason: null
@@ -12,7 +12,7 @@ call_relationship: unknown # same | new | unknown; requires evidence
 session_epoch: null # actual provider epoch if available, otherwise unknown
 skill:
   name: session-init
-  declared_version: 1.2.3
+  declared_version: 1.3.0
   resource_identity: null
   observed_revision_or_hash: null
   read_evidence: null
@@ -57,9 +57,17 @@ persistence:
   receipt: null
   last_good_ref: null
   gap: null
+ledger_reconciliation:
+  contract_version: dot-ledger-reconciliation/0.1
+  state: pending # complete | partial | blocked | pending; plan_only is never complete
+  scope_coverage: null # original denominator, selected, observed, unmatched, excluded
+  counts: {} # pulled, pushed_verified, unchanged, conflict, blocked, uncertain, unmatched
+  receipt_ref: null # compact local per-invocation receipt; no raw contents
+  last_verified_baseline_ref: null
+  material_gaps: []
 completed_external_effects: [] # inherited receipt references, not performed by init
 uncertain_external_effects: []
-new_external_effects: [] # normally empty; initialization alone authorizes none
+new_external_effects: [] # only separately authorized, read-back-verified effects; invocation grants none
 unresolved_gates: []
 acknowledgment: # do not equate prepared with spoken/heard
   state: not_sent
@@ -75,3 +83,5 @@ Technical readiness means mandatory resources loaded and the compact core prepar
 For blocked/degraded readiness, name the affected behavior and smallest next permitted step. A blank array means none observed, not proof that none exist. Use a fresh local ID for another manual invocation with unknown call identity; don't invent a reconnect. Record actual selected resource loads, not every file in the package. Keep the full receipt out of the spoken acknowledgment.
 
 Version 1.1 adds functional briefing/persistence fields; old 1.0 receipts remain immutable historical evidence with absent fields unknown. Never silently reinterpret old ready as full functional success. Delivery state remains independent of both readiness fields.
+
+Version 1.2 adds reconciliation accountability. Missing reconciliation evidence in a 1.1 receipt is unknown, not complete. Partial/blocked reconciliation degrades the invocation without withholding an otherwise useful briefing.
