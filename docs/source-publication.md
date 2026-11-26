@@ -84,3 +84,13 @@ The five files under `examples/ironbrain-context-policy-model` remain unchanged.
 They are an offline synthetic reference model, not a production ACL system,
 AnythingLLM integration or deployment. Their README explains the limitations.
 No automatic publication, access grant or ingestion is performed by the model.
+
+## 2026-11-26 Session Init reconciliation update
+
+Session Init 1.3.0 and the ClickUp 1.3.4 reconciliation profile export the
+manual, opt-in reconciliation design and offline tests. The planner
+separates proposed changes from verified live effects. It does not poll or
+dispatch writes; outbound status changes require an exact supported route,
+authority, and readback. The export contains no ledger entries, historical
+transactions, receipt data, or real workspace configuration. This update
+does not certify live end-to-end operation.

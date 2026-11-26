@@ -1,16 +1,16 @@
 {
-  "export_date": "2026-11-11",
+  "export_date": "2026-11-26",
   "repository": "https://github.com/IronbellyOrg/irondots",
   "notice": "Sanitized source export, not exact installed bytes or runtime certification. Export versions without known native semantic version are repository-only identifiers. No release authorization.",
   "packages": [
     {
       "id": "session-init",
-      "export_version": "1.2.3-public.1",
+      "export_version": "1.3.0-public.1",
       "source_files": [
         {
           "path": "SKILL.md",
-          "source_sha256": "2e960fdca1ca546329d61bb29878877423dab68daacebf04e5dc016059ddf7ff",
-          "export_sha256": "6963088518b90026db3792e6641f3f59b8f003bd9f1176b9ad74dd8bf172b102",
+          "source_sha256": "1e4d3b9bacf1ea199dcecdda2fc968ec9ead3df40b46425356f4438664f5d757",
+          "export_sha256": "c90010fdb621c89e801e90f5a06e00944bb29234557389b0fc3519e2f6019dfb",
           "changed": true
         },
         {
@@ -39,32 +39,38 @@
         },
         {
           "path": "assets/session-receipt.md",
-          "source_sha256": "52430d54e94abea02c80be6ce8eeaeb3ce17b5b582ccb518daf751b7079198ab",
-          "export_sha256": "52430d54e94abea02c80be6ce8eeaeb3ce17b5b582ccb518daf751b7079198ab",
+          "source_sha256": "7724132f200acfde2dbe277123d551250524778613ac73c77665b8d08c98899f",
+          "export_sha256": "7724132f200acfde2dbe277123d551250524778613ac73c77665b8d08c98899f",
           "changed": false
         },
         {
           "path": "references/clickup-routing.md",
-          "source_sha256": "f5b63c0561c74d811fbd8905d7c483ede32f2b5a4c00acee63cbbcf83aae4af2",
-          "export_sha256": "1cf8cac188c1e24dd10cc4b6c87fcf6bd7d382c68395214c18a18c1899dc7f46",
+          "source_sha256": "c795035d7d37cb6f197ac735aab093f83fbf0c3acfe973a504bb5f969ae2e340",
+          "export_sha256": "4b46b256a7f0cf0a79d999d5ba0885b7852417a485de06664cc824f36fc90ade",
+          "changed": true
+        },
+        {
+          "path": "references/ledger-reconciliation.md",
+          "source_sha256": "80f9e22739bc33c3cf6f1cd267204daf456150d5321c7672187fa038101de04f",
+          "export_sha256": "c9ce5e192dd77c5a56da7642f463dfe0de74061765889045254dcc8b939cd556",
           "changed": true
         },
         {
           "path": "references/priority-briefing.md",
-          "source_sha256": "f85103512d436ff93a433eaa0a5312a0cceba93328fc5ec6a1366a2d2b783c4c",
-          "export_sha256": "e13f3e712515990be94064462c61ea3da1277d70f8b2abc8475183735580775d",
+          "source_sha256": "50ea2fc9fcb33ef4db42f4e4a1ccc894e29cac090b25f5211d9838c80749839d",
+          "export_sha256": "c33b5a38228ed41db397e26ce185f88a613f058be269349e40ddb58c113c15f8",
           "changed": true
         },
         {
           "path": "references/session-continuity.md",
-          "source_sha256": "5689a9fe08ed58b83fc83f2e5f3a14c970ab4147e38f2e79658dcdbc4acefa96",
-          "export_sha256": "570015dd85dd0143f2c604aa7527588050dfe8ef34cf656a990aaff98eeb7608",
+          "source_sha256": "ed4e663ca41e920671d83c41d76f4e51c689c5c2a5ac43f986aaca35d5bad151",
+          "export_sha256": "9257089015be9f46fecba25ce06be3990d8c6c1d7f511002848d56b3a81db260",
           "changed": true
         },
         {
           "path": "references/skill-routing-ledger.md",
-          "source_sha256": "a10a84379bc301d5ca52fe4ea104189d0e7670caab15857685b7cde8d955b019",
-          "export_sha256": "915e33e5ec5e338c1efe442d21997480cda7ceafd3ef17dd54a1b93a0f444647",
+          "source_sha256": "b3a1ae4a32a7642e8aa3a78701644ac9f32ec8efb94d201ef7a2b66a4bb468f1",
+          "export_sha256": "3c625230afe7b6a16993f7004e1b1f9aa90c32fc10c99de99b0653860096c986",
           "changed": true
         },
         {
@@ -77,6 +83,18 @@
           "path": "references/voice-waiting.md",
           "source_sha256": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
           "export_sha256": "3aca3be4a323e057f117f362d248d78bda90f44f795aa80c9b5959ee66634217",
+          "changed": false
+        },
+        {
+          "path": "scripts/ledger_reconcile.py",
+          "source_sha256": "cf9193079fbf27e4c8e847c6135e6bb9533422120f62084f9dd733de74b62f94",
+          "export_sha256": "cf9193079fbf27e4c8e847c6135e6bb9533422120f62084f9dd733de74b62f94",
+          "changed": false
+        },
+        {
+          "path": "tests/test_ledger_reconcile.py",
+          "source_sha256": "f6ef5c95278280a0801afc2b553e2bc0956b9d52598ae7c425a2cdad420e6974",
+          "export_sha256": "f6ef5c95278280a0801afc2b553e2bc0956b9d52598ae7c425a2cdad420e6974",
           "changed": false
         }
       ],
@@ -120,12 +138,12 @@
     },
     {
       "id": "clickup",
-      "export_version": "1.3.3-public.1",
+      "export_version": "1.3.4-public.1",
       "source_files": [
         {
           "path": "SKILL.md",
-          "source_sha256": "98418cdca6804e33d4296d4e84df17d603f0e52d0364a6bb597d1d59fb439d50",
-          "export_sha256": "8a01cb7ab96dd3a2efdaa3964cfde90cc6baf4fd20fe26af03875cdc38625b5d",
+          "source_sha256": "fbdc1c58b83b3cfe6798d18ae9db8425d7eb95495c8e9441669d096ffdc89367",
+          "export_sha256": "a4f22c8d7f5fe2be7bc230a6b8b754265deda75475bcc89189eade6bfd192bc5",
           "changed": true
         },
         {
@@ -210,6 +228,12 @@
           "path": "references/handoff-reconciliation.md",
           "source_sha256": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
           "export_sha256": "3232de35e17d7ad3dbfc10cfe488aae35152473dd07ed382ca4bebf9d83783ad",
+          "changed": false
+        },
+        {
+          "path": "references/ledger-reconciliation-v0.1.md",
+          "source_sha256": "50f01b0239a587904618598bf0fe0f136f1baa3750a1041d0d32f1ecb858c3eb",
+          "export_sha256": "50f01b0239a587904618598bf0fe0f136f1baa3750a1041d0d32f1ecb858c3eb",
           "changed": false
         },
         {
